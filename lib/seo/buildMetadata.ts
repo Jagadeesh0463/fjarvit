@@ -12,7 +12,7 @@ const SITE_URL = "https://fjarvit.com";
 // JSON-LD <script> tags in each page component.
 export function buildCardMetadata(card: CreditCard): Metadata {
   const bank = getBankBySlug(card.bank);
-  const title = `${card.slug.replace(/-/g, " ")} — Benefits, Changes & Calculator | ${SITE_NAME}`;
+  const title = `${card.slug.replace(/-/g, " ")} — Benefits, Changes & Calculator`;
   const description = `Current benefits, full change history, and a spend calculator for the ${bank?.name ?? card.bank} card. Last verified ${card.lastVerified}.`;
 
   return {

@@ -18,7 +18,7 @@ applying.
 
 ## 🌐 Live Demo
 
-_Coming soon — deployment in progress._
+https://fjarvit.vercel.app
 
 ## Features
 

@@ -21,7 +21,7 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
   const card = getCardBySlug(params.slug);
   if (!card) return {};
   const bank = getBankBySlug(card.bank);
-  const title = `${card.slug.replace(/-/g, " ")} — Benefit Change History | Fjarvit`;
+  const title = `${card.slug.replace(/-/g, " ")} — Benefit Change History`;
   const description = `Every recorded benefit change for the ${bank?.name ?? card.bank} card, with dates and official sources.`;
   return {
     title,
