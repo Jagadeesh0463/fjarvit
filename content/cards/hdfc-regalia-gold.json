@@ -1,0 +1,92 @@
+{
+  "id": 4,
+  "slug": "hdfc-regalia-gold",
+  "bank": "hdfc",
+  "network": "Visa",
+  "category": "travel",
+  "status": "active",
+  "annualFee": 2500,
+  "joiningFee": 2500,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [],
+    "rewardPoints": {
+      "pointsPer": 5,
+      "pointsPerAmount": 200
+    },
+    "loungeAccess": {
+      "domesticVisitsPerQuarter": 3,
+      "internationalVisitsPerQuarter": 1,
+      "conditions": "Domestic: 3 visits/quarter, requires ₹60,000+ spend in the preceding calendar quarter (effective May 2026). International: 6 visits per calendar year via complimentary Priority Pass membership, no spend condition (so roughly 1-2 per quarter)."
+    },
+    "fuelBenefit": {
+      "surchargeWaiverPercent": 1
+    },
+    "milestoneBenefits": [
+      {
+        "spendThresholdInr": 150000,
+        "period": "quarterly",
+        "reward": "₹1,500 e-voucher"
+      },
+      {
+        "spendThresholdInr": 500000,
+        "period": "annual",
+        "reward": "₹5,000 flight voucher"
+      },
+      {
+        "spendThresholdInr": 750000,
+        "period": "annual",
+        "reward": "Additional ₹5,000 voucher"
+      }
+    ]
+  },
+  "history": [
+    {
+      "attribute": "Domestic Lounge Access",
+      "oldValue": "3 domestic lounge visits per quarter (12/year), no spend condition",
+      "newValue": "3 domestic lounge visits per quarter, requires ₹60,000+ spend in the preceding calendar quarter",
+      "effectiveDate": "2026-05-01",
+      "source": {
+        "name": "CardExpert",
+        "document": "HDFC Regalia Gold Now Requires Spends for Lounge Access, Introduces Boarding Edge",
+        "url": "https://www.cardexpert.in/hdfc-regalia-gold-2026-lounge-access-update/"
+      }
+    },
+    {
+      "attribute": "Reward Point Earn Rate",
+      "oldValue": "4 Reward Points per ₹150 spent (1.33%)",
+      "newValue": "5 Reward Points per ₹200 spent (1.25%)",
+      "effectiveDate": "2026-05-15",
+      "source": {
+        "name": "CardExpert",
+        "document": "HDFC Regalia Gold Now Requires Spends for Lounge Access, Introduces Boarding Edge",
+        "url": "https://www.cardexpert.in/hdfc-regalia-gold-2026-lounge-access-update/"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No. It has a ₹2,500 + taxes joining and annual fee, waived on renewal if you spend ₹4,00,000 or more in the preceding year.",
+    "Is it worth it?": "It's still a solid mid-premium travel card thanks to reward point transfers to airline/hotel partners and the new Boarding Edge perks, but its lounge access is no longer unconditional — since May 2026 you must spend ₹60,000 in the prior quarter to unlock 3 domestic visits.",
+    "Who should get this card?": "Frequent domestic travellers who can consistently clear ₹60,000 in quarterly spend and want to transfer reward points to airline/hotel loyalty programs.",
+    "Does it support UPI?": "No. It is issued on the Visa network, and Visa credit cards cannot currently be linked to UPI apps in India.",
+    "Can I get lounge access with this card?": "Yes, but conditionally since May 2026: 3 domestic lounge visits per quarter require ₹60,000+ spend in the preceding quarter, while 6 international Priority Pass visits per year remain available with no spend condition.",
+    "What income is required to qualify?": "HDFC typically requires a net monthly income of about ₹1,00,000 (government employees) or ₹1,50,000 (private sector) for salaried applicants, or an ITR of ₹18 lakh+ for self-employed applicants.",
+    "Who should avoid this card?": "Occasional travellers who were relying on unconditional lounge access, or anyone whose quarterly card spend regularly falls short of ₹60,000.",
+    "What are the best alternatives?": "HDFC Infinia or HDFC Marriott Bonvoy for cardholders who want more dependable lounge access, or Axis Magnus/HDFC Diners Club Black for comparable travel-reward positioning."
+  },
+  "calculator": {
+    "categories": [
+      {
+        "label": "Travel and dining",
+        "matchesCashbackCategory": "All spends",
+        "defaultSpendInr": 30000
+      },
+      {
+        "label": "General retail",
+        "matchesCashbackCategory": "All spends",
+        "defaultSpendInr": 40000
+      }
+    ]
+  }
+}

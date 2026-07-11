@@ -1,0 +1,79 @@
+{
+  "id": 5,
+  "slug": "hdfc-indianoil",
+  "bank": "hdfc",
+  "network": "Visa",
+  "category": "fuel",
+  "status": "active",
+  "annualFee": 500,
+  "joiningFee": 500,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [
+      {
+        "category": "Fuel at IndianOil outlets",
+        "rate": 5,
+        "cap": 250,
+        "notes": "5% as Fuel Points; capped at 250 Fuel Points/month for the first 6 months, 150 Fuel Points/month thereafter. Fuel Points redemption value varies (roughly ₹0.20-0.96 per point depending on redemption method)."
+      },
+      {
+        "category": "Groceries and utility bill payments",
+        "rate": 5,
+        "cap": 100,
+        "notes": "5% as Fuel Points, capped at 100 Fuel Points/month per category"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1
+      }
+    ],
+    "fuelBenefit": {
+      "surchargeWaiverPercent": 1,
+      "capInr": 250,
+      "minTransactionInr": 400
+    }
+  },
+  "history": [
+    {
+      "attribute": "Fee on Large Fuel Transactions",
+      "oldValue": "No additional transaction fee on large fuel purchases beyond the standard 1% surcharge waiver limits",
+      "newValue": "1% fee (capped at ₹3,000) applies on fuel transactions above ₹15,000 in a statement cycle",
+      "effectiveDate": "2024-08-01",
+      "source": {
+        "name": "HDFC Bank",
+        "document": "Revised Credit Card Fees and Charges (OPM Pricing)",
+        "url": "https://v.hdfc.bank.in/content/dam/hdfc-aem-microsites/common-pdfs/pdf/OPM_Pricing.pdf"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No. It has a ₹500 + taxes joining and annual fee, waived on renewal if you spend ₹50,000 or more in the first year.",
+    "Is it worth it?": "Yes, for people who regularly fuel up at IndianOil outlets — the 5% Fuel Points rate plus the 1% fuel surcharge waiver make it one of the cheaper ways to save on petrol/diesel spends, though the low monthly point caps limit savings for heavy fuel spenders.",
+    "Who should get this card?": "Car owners and daily commuters who fill up mainly at IndianOil pumps and also want a low-fee card with modest grocery/bill-payment rewards.",
+    "Does it support UPI?": "No. It is issued on the Visa network, and Visa credit cards cannot currently be linked to UPI apps in India.",
+    "Can I get lounge access with this card?": "No, this entry-level fuel card does not offer complimentary airport lounge access.",
+    "What income is required to qualify?": "HDFC typically requires a minimum net monthly income of around ₹12,000 for salaried applicants, or an ITR of ₹6 lakh+ per annum for self-employed applicants.",
+    "Who should avoid this card?": "Drivers who mostly fuel at non-IndianOil outlets, or high-fuel-spend users who will quickly exceed the monthly Fuel Points caps.",
+    "What are the best alternatives?": "IndianOil-branded cards from other issuers, or a general cashback card like the HDFC Millennia or Amazon Pay ICICI card if fuel spending isn't your dominant category."
+  },
+  "calculator": {
+    "categories": [
+      {
+        "label": "Fuel at IndianOil outlets",
+        "matchesCashbackCategory": "Fuel at IndianOil outlets",
+        "defaultSpendInr": 4000
+      },
+      {
+        "label": "Groceries and bill payments",
+        "matchesCashbackCategory": "Groceries and utility bill payments",
+        "defaultSpendInr": 5000
+      },
+      {
+        "label": "Other spends",
+        "matchesCashbackCategory": "All other spends",
+        "defaultSpendInr": 8000
+      }
+    ]
+  }
+}

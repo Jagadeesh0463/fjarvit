@@ -1,0 +1,90 @@
+{
+  "id": 6,
+  "slug": "sbi-simplyclick",
+  "bank": "sbi",
+  "network": "Visa",
+  "category": "cashback",
+  "status": "active",
+  "annualFee": 499,
+  "joiningFee": 499,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [],
+    "rewardPoints": {
+      "pointsPer": 10,
+      "pointsPerAmount": 100
+    },
+    "fuelBenefit": {
+      "surchargeWaiverPercent": 1,
+      "capInr": 100,
+      "minTransactionInr": 500,
+      "maxTransactionInr": 3000
+    },
+    "milestoneBenefits": [
+      {
+        "spendThresholdInr": 100000,
+        "period": "annual",
+        "reward": "₹2,000 Cleartrip voucher"
+      },
+      {
+        "spendThresholdInr": 200000,
+        "period": "annual",
+        "reward": "₹2,000 Cleartrip voucher"
+      }
+    ]
+  },
+  "history": [
+    {
+      "attribute": "Swiggy Reward Rate",
+      "oldValue": "10X Reward Points on Swiggy transactions",
+      "newValue": "5X Reward Points on Swiggy transactions",
+      "effectiveDate": "2025-04-01",
+      "source": {
+        "name": "Business Standard",
+        "document": "SBI Card reduces reward points on SimplyCLICK and other credit cards",
+        "url": "https://www.business-standard.com/finance/personal-finance/sbi-card-reduces-reward-points-on-simplyclick-and-other-credit-cards-125031900403_1.html"
+      }
+    },
+    {
+      "attribute": "Complimentary Insurance Cover",
+      "oldValue": "₹50 lakh complimentary air accident cover and ₹10 lakh rail accident cover",
+      "newValue": "Complimentary air and rail accident insurance cover discontinued",
+      "effectiveDate": "2025-07-26",
+      "source": {
+        "name": "SBI Card",
+        "document": "Customer Notices - Revision of Terms and Conditions",
+        "url": "https://www.sbicard.com/en/customer-notices.page"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No. It has a ₹499 + taxes joining and annual fee, waived on renewal if you spend ₹1,00,000 or more in the preceding year.",
+    "Is it worth it?": "Yes, for online-shopping-focused users — 10X Reward Points (≈5% value) on partner brands like BookMyShow, Apollo 24/7, Domino's, Myntra, and Yatra, plus 5X on all other online spends, make it one of the better sub-₹500 online shopping cards, though it earns reward points rather than direct cashback.",
+    "Who should get this card?": "First-time credit card users or online shoppers who want accelerated rewards on e-commerce and select partner brands without a high annual fee.",
+    "Does it support UPI?": "This card is issued on the Visa network; Visa credit cards cannot currently be linked to UPI apps in India (SBI does offer a separate SimplySAVE UPI RuPay variant for UPI linkage).",
+    "Can I get lounge access with this card?": "No, SBI Card SimplyCLICK does not offer complimentary airport lounge access.",
+    "What income is required to qualify?": "SBI generally requires a minimum monthly income of around ₹30,000 for salaried applicants.",
+    "Who should avoid this card?": "Shoppers who spend mostly offline or in categories outside the 10X/5X partner list, since the base offline rate is a modest 1 point per ₹100.",
+    "What are the best alternatives?": "Amazon Pay ICICI Credit Card (better if Amazon is your main platform) or HDFC Millennia (broader 5% cashback across 10 brands including food delivery and cabs)."
+  },
+  "calculator": {
+    "categories": [
+      {
+        "label": "Partner brands (BookMyShow, Myntra, Domino's, etc.)",
+        "matchesCashbackCategory": "All spends",
+        "defaultSpendInr": 3000
+      },
+      {
+        "label": "Other online shopping",
+        "matchesCashbackCategory": "All spends",
+        "defaultSpendInr": 6000
+      },
+      {
+        "label": "Offline spends",
+        "matchesCashbackCategory": "All spends",
+        "defaultSpendInr": 8000
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": 20,
+  "slug": "au-altura",
+  "bank": "au-sfb",
+  "network": "Visa",
+  "category": "cashback",
+  "status": "active",
+  "annualFee": 199,
+  "joiningFee": 199,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [
+      { "category": "Grocery, departmental store & utility bill payments", "rate": 2, "cap": 50, "notes": "Cashback capped at ₹50 per month" },
+      { "category": "Other retail spends", "rate": 1, "cap": 50, "notes": "Cashback capped at ₹50 per month" }
+    ],
+    "loungeAccess": {
+      "domesticVisitsPerQuarter": 2,
+      "internationalVisitsPerQuarter": 0,
+      "conditions": "Railway lounge access only, not airport lounge access. 8 complimentary visits per year total, shared with add-on cardholders."
+    },
+    "fuelBenefit": { "surchargeWaiverPercent": 1, "capInr": 100, "minTransactionInr": 400, "maxTransactionInr": 5000 },
+    "milestoneBenefits": [
+      { "spendThresholdInr": 10000, "period": "month", "reward": "Additional ₹50 cashback" }
+    ]
+  },
+  "history": [],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No. It has a joining and annual fee of ₹199 + taxes, though the joining fee is waived on ₹10,000 spend within 90 days and the annual fee is waived on ₹40,000 spend in the previous year.",
+    "Is it worth it?": "For a low, easily waivable ₹199 fee, the 2%/1% cashback on everyday grocery, utility and retail spends plus railway lounge access make it a reasonable low-maintenance cashback card, though the ₹50/month cashback caps limit upside for bigger spenders.",
+    "Who should get this card?": "Everyday spenders on groceries, utility bills and retail who also take frequent train journeys and want a low-fee cashback card.",
+    "Does it support UPI?": "AU Bank cards can generally be linked to UPI apps; confirm current UPI support for this specific Visa variant directly with AU Bank.",
+    "Can I get lounge access with this card?": "No airport lounge access; the card offers 8 complimentary railway lounge visits per year, shared with add-on cardholders.",
+    "What income is required to qualify?": "AU Bank does not publish a fixed minimum income threshold; eligibility is assessed on income, credit history and existing relationship with the bank.",
+    "Who should avoid this card?": "Big spenders who will regularly exceed the ₹50/month cashback caps, or frequent flyers wanting airport lounge access, should look at higher-tier cards instead.",
+    "What are the best alternatives?": "SBI Card Unnati or AU Spont Credit Card for a similar low-fee entry-level card segment."
+  },
+  "calculator": {
+    "categories": [
+      { "label": "Grocery & utility bills", "matchesCashbackCategory": "Grocery, departmental store & utility bill payments", "defaultSpendInr": 6000 },
+      { "label": "Other retail spends", "matchesCashbackCategory": "Other retail spends", "defaultSpendInr": 5000 }
+    ]
+  }
+}

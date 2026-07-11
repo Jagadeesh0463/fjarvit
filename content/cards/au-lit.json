@@ -1,0 +1,47 @@
+{
+  "id": 19,
+  "slug": "au-lit",
+  "bank": "au-sfb",
+  "network": "Visa",
+  "category": "lifetime-free",
+  "status": "active",
+  "annualFee": 0,
+  "joiningFee": 0,
+  "lifetimeFree": true,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [
+      { "category": "Grocery", "rate": 5, "cap": 500, "notes": "Requires activating the ₹299/90-day 'Grocery Cashback' pack in the AU 0101 app; cashback capped at ₹500 per 30-day period" },
+      { "category": "Apparel", "rate": 5, "cap": 500, "notes": "Requires activating the ₹199/90-day 'Apparel Cashback' pack; cashback capped at ₹500 per 30-day period" }
+    ],
+    "rewardPoints": { "pointsPer": 10, "pointsPerAmount": 100 },
+    "loungeAccess": {
+      "domesticVisitsPerQuarter": 2,
+      "internationalVisitsPerQuarter": 0,
+      "conditions": "Requires activating the ₹399/90-day lounge pack in the AU 0101 app; capped at 2 domestic airport lounge visits per 90-day period"
+    },
+    "fuelBenefit": { "surchargeWaiverPercent": 1, "minTransactionInr": 400, "maxTransactionInr": 5000 },
+    "milestoneBenefits": [
+      { "spendThresholdInr": 10000, "period": "30 days", "reward": "Additional 5% cashback up to ₹500 (requires the ₹299/90-day milestone pack)" },
+      { "spendThresholdInr": 15000, "period": "30 days", "reward": "Additional 2% cashback up to ₹1,000 (requires the ₹199/90-day milestone pack)" }
+    ]
+  },
+  "history": [],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "AU markets it as lifetime free with no mandatory joining or annual fee, but most meaningful benefits (accelerated cashback, higher reward multipliers, lounge access) require activating optional 90-day 'packs' priced ₹49–₹399 each via the AU 0101 app, so it isn't free if you actually want to use its features.",
+    "Is it worth it?": "Worth it only if you actively manage the AU 0101 app every 90 days to activate the specific packs matching your spending — otherwise you're either paying quarterly fees for unused benefits or getting minimal base value. Casual users may find a simpler flat-rate card better value.",
+    "Who should get this card?": "Engaged, app-savvy users who want to customize their card's cashback, rewards and lounge benefits every quarter based on changing spending needs.",
+    "Does it support UPI?": "AU Bank's app-first cards generally support UPI linking via the AU 0101 app; confirm current UPI availability for this specific Visa variant directly with AU Bank.",
+    "Can I get lounge access with this card?": "Yes, but only if you activate the ₹399/90-day lounge pack, which gives up to 2 complimentary domestic airport lounge visits per quarter.",
+    "What income is required to qualify?": "AU Bank does not publish a fixed minimum income for the LIT card; eligibility depends on internal credit assessment, with applicants generally required to be 21–65 years old (self-employed) or 21–60 (salaried).",
+    "Who should avoid this card?": "Anyone who wants a simple, predictable, genuinely free card without recurring micro-fees should avoid LIT — its opt-in pricing can end up costing more than a flat-fee card if benefits aren't actively managed every quarter.",
+    "What are the best alternatives?": "HDFC Pixel Play, HDFC Millennia, or Equitas Selfe Credit Card for simpler flat-benefit lifetime-free cards."
+  },
+  "calculator": {
+    "categories": [
+      { "label": "Grocery spends", "matchesCashbackCategory": "Grocery", "defaultSpendInr": 8000 },
+      { "label": "Apparel spends", "matchesCashbackCategory": "Apparel", "defaultSpendInr": 3000 },
+      { "label": "Other online/offline spends", "matchesCashbackCategory": "Other spends", "defaultSpendInr": 10000 }
+    ]
+  }
+}

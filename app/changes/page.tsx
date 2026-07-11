@@ -18,7 +18,7 @@ export default function ChangesPage() {
       <ul className="mt-6 divide-y divide-gray-100">
         {changes.map(({ card, entry }, i) => (
           <li key={i} className="py-4">
-            <Link href={routes.card(card.slug)} className="text-sm font-medium text-brand hover:underline">
+            <Link href={routes.change(card.slug)} className="text-sm font-medium text-brand hover:underline">
               {card.slug.replace(/-/g, " ")}
             </Link>
             <p className="text-sm text-gray-900">{entry.attribute}</p>

@@ -1,0 +1,65 @@
+{
+  "id": 15,
+  "slug": "idfc-first-millennia",
+  "bank": "idfc-first",
+  "network": "Visa",
+  "category": "lifetime-free",
+  "status": "active",
+  "annualFee": 0,
+  "joiningFee": 0,
+  "lifetimeFree": true,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [],
+    "rewardPoints": { "pointsPer": 3, "pointsPerAmount": 200, "pointValueInr": 0.25 },
+    "loungeAccess": {
+      "domesticVisitsPerQuarter": 4,
+      "internationalVisitsPerQuarter": 0,
+      "conditions": "Railway lounge access only (no airport lounge); requires min. ₹20,000 spend in the previous month to unlock visits in the current month."
+    },
+    "fuelBenefit": { "surchargeWaiverPercent": 1, "capInr": 200, "minTransactionInr": 200, "maxTransactionInr": 5000 },
+    "movieBenefit": { "description": "25% off (up to ₹100) on movie tickets via the District by Zomato app, once a month, requires at least one transaction in the previous month", "capInr": 100, "frequency": "monthly" },
+    "insuranceBenefit": { "type": "Personal Accident Cover", "coverageInr": 200000 }
+  },
+  "history": [
+    {
+      "attribute": "Reward Points Earning Base",
+      "oldValue": "1 Reward Point per ₹150 spent",
+      "newValue": "1 Reward Point per ₹200 spent",
+      "effectiveDate": "2026-06-18",
+      "source": {
+        "name": "IDFC FIRST Bank",
+        "document": "Important Update Regarding FIRST Millennia Credit Card",
+        "url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/FIRST-Millennia-Credit-Card.pdf"
+      }
+    },
+    {
+      "attribute": "10X Reward Points Threshold",
+      "oldValue": "10X rewards on dining/travel required min. ₹20,000 monthly spend to activate",
+      "newValue": "10X rewards on dining/travel/international spends apply from the first eligible transaction, no minimum spend required",
+      "effectiveDate": "2026-06-18",
+      "source": {
+        "name": "IDFC FIRST Bank",
+        "document": "Important Update Regarding FIRST Millennia Credit Card",
+        "url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/FIRST-Millennia-Credit-Card.pdf"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "Yes, IDFC FIRST Millennia has no joining or annual fee, ever.",
+    "Is it worth it?": "For a free card, yes — it offers accelerated reward points on dining, travel and international spends, a monthly movie discount, and railway lounge access, with no annual fee to justify.",
+    "Who should get this card?": "First-time credit card users or anyone wanting a no-fee card with decent reward points on everyday, dining and travel spends, plus railway lounge access.",
+    "Does it support UPI?": "The standard Visa variant does not support UPI linking directly; IDFC FIRST offers a separate FIRST Digital RuPay Credit Card that Millennia cardholders can additionally get for UPI payments.",
+    "Can I get lounge access with this card?": "No airport lounge access, but it offers 4 complimentary railway lounge visits per quarter, subject to spending ₹20,000 in the previous month.",
+    "What income is required to qualify?": "A minimum annual income of around ₹3 lakh is typically required, subject to the bank's internal policies.",
+    "Who should avoid this card?": "Frequent flyers who want airport lounge access, or spenders who value a high per-point redemption value, since IDFC FIRST's redemption rate is a relatively low ₹0.25/point.",
+    "What are the best alternatives?": "HDFC MoneyBack+, SBI SimplyCLICK, or Axis Ace for those wanting airport lounge access or a simpler higher-value cashback structure."
+  },
+  "calculator": {
+    "categories": [
+      { "label": "Dining & travel spends", "matchesCashbackCategory": "Dining & travel", "defaultSpendInr": 5000 },
+      { "label": "Utility & bill payments", "matchesCashbackCategory": "Utility bills", "defaultSpendInr": 3000 },
+      { "label": "Other online/offline spends", "matchesCashbackCategory": "Other spends", "defaultSpendInr": 10000 }
+    ]
+  }
+}

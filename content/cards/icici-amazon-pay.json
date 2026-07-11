@@ -1,0 +1,82 @@
+{
+  "id": 8,
+  "slug": "icici-amazon-pay",
+  "bank": "icici",
+  "network": "Visa",
+  "category": "lifetime-free",
+  "status": "active",
+  "annualFee": 0,
+  "joiningFee": 0,
+  "lifetimeFree": true,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [
+      {
+        "category": "Amazon.in purchases (Amazon Prime members)",
+        "rate": 5,
+        "notes": "Unlimited, non-expiring cashback credited directly as Amazon Pay balance"
+      },
+      {
+        "category": "Amazon.in purchases (non-Prime members)",
+        "rate": 3,
+        "notes": "Credited as Amazon Pay balance"
+      },
+      {
+        "category": "Amazon Pay partner merchants",
+        "rate": 2
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "notes": "Includes utility bills, insurance premiums, and general offline/online spends"
+      }
+    ],
+    "loungeAccess": {
+      "domesticVisitsPerQuarter": 1,
+      "internationalVisitsPerQuarter": 0,
+      "conditions": "Requires ₹75,000+ spend in the preceding calendar quarter; access limited to the Visa domestic lounge network; ₹2 authorization fee per visit; maximum 3 hours per visit."
+    }
+  },
+  "history": [
+    {
+      "attribute": "Foreign Currency Markup Fee",
+      "oldValue": "3.5% markup on international/foreign currency transactions",
+      "newValue": "1.99% markup on international/foreign currency transactions",
+      "effectiveDate": "2025-10-11",
+      "source": {
+        "name": "1Finance",
+        "document": "Amazon Pay ICICI Credit Card: Complete review 2026",
+        "url": "https://1finance.co.in/blog/amazon-pay-icici-credit-card-review/"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "Yes. There is no joining fee, annual fee, or renewal fee — it is genuinely free for life with no spend-based waiver condition.",
+    "Is it worth it?": "Yes, especially for Amazon Prime members and frequent Amazon.in shoppers — unlimited 5% cashback (Prime) or 3% (non-Prime) with no annual fee and a low 1.99% forex markup make it one of the best value lifetime-free cards in India.",
+    "Who should get this card?": "Regular Amazon.in shoppers, Amazon Prime subscribers, and anyone wanting a genuinely fee-free everyday card with a low forex markup for occasional foreign spends.",
+    "Does it support UPI?": "No. It is issued on the Visa network only, with no RuPay variant, so it cannot be linked to UPI apps for payments.",
+    "Can I get lounge access with this card?": "Only conditionally — 1 complimentary domestic Visa lounge visit per quarter, but only if you spent ₹75,000 or more in the preceding calendar quarter (plus a ₹2 authorization fee per visit).",
+    "What income is required to qualify?": "ICICI Bank requires a minimum monthly income of about ₹25,000 for existing ICICI Bank customers, or ₹30,000 for non-ICICI-customer applicants.",
+    "Who should avoid this card?": "Shoppers who don't use Amazon.in regularly, need UPI linkage, or want unconditional lounge access — the cashback and lounge perks are Amazon/spend-dependent.",
+    "What are the best alternatives?": "HDFC Millennia (broader 5% across 10 brands including food delivery) or Flipkart Axis Bank Card if Flipkart is your primary shopping platform."
+  },
+  "calculator": {
+    "categories": [
+      {
+        "label": "Amazon.in purchases (Prime)",
+        "matchesCashbackCategory": "Amazon.in purchases (Amazon Prime members)",
+        "defaultSpendInr": 6000
+      },
+      {
+        "label": "Amazon Pay partner merchants",
+        "matchesCashbackCategory": "Amazon Pay partner merchants",
+        "defaultSpendInr": 3000
+      },
+      {
+        "label": "Other spends",
+        "matchesCashbackCategory": "All other spends",
+        "defaultSpendInr": 10000
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": 3,
+  "slug": "hdfc-millennia",
+  "bank": "hdfc",
+  "network": "Visa",
+  "category": "cashback",
+  "status": "active",
+  "annualFee": 1000,
+  "joiningFee": 1000,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [
+      {
+        "category": "Partner brands (Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber, Zomato)",
+        "rate": 5,
+        "cap": 1000,
+        "notes": "Capped at 1,000 CashPoints per statement cycle (1 CashPoint ≈ ₹1)"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "cap": 1000,
+        "notes": "Capped at 1,000 CashPoints per statement cycle"
+      }
+    ],
+    "fuelBenefit": {
+      "surchargeWaiverPercent": 1,
+      "capInr": 250,
+      "minTransactionInr": 400
+    },
+    "milestoneBenefits": [
+      {
+        "spendThresholdInr": 100000,
+        "period": "quarterly",
+        "reward": "Choice of ₹1,000 brand voucher or 1 complimentary domestic airport lounge visit"
+      }
+    ]
+  },
+  "history": [
+    {
+      "attribute": "Complimentary Domestic Lounge Access",
+      "oldValue": "Complimentary domestic lounge access each quarter, not tied to spend",
+      "newValue": "Domestic lounge access only as a choice-based reward on ₹1,00,000+ quarterly spend milestone",
+      "effectiveDate": "2023-12-01",
+      "source": {
+        "name": "1Finance",
+        "document": "HDFC Millennia Credit Card: Complete review 2026",
+        "url": "https://1finance.co.in/blog/hdfc-millennia-credit-card-review/"
+      }
+    },
+    {
+      "attribute": "Reward Point Earning Exclusions",
+      "oldValue": "Wallet loads, EMI conversions, and education payments made via third-party apps earned Reward Points",
+      "newValue": "Wallet loading, Easy EMI conversions, and education payments excluded from earning Reward Points",
+      "effectiveDate": "2024-09-01",
+      "source": {
+        "name": "HDFC Bank",
+        "document": "Terms & Conditions - Millennia Credit Card",
+        "url": "https://www.hdfc.bank.in/content/dam/hdfcbankpws/in/en/personal-banking/discover-products/cards/credit-cards/millennia-credit-card/Terms-and-Conditions-Millennia-Credit-Card.pdf"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No. It carries a ₹1,000 + taxes joining and annual fee, but the annual fee is waived if you spend ₹1,00,000 or more in the preceding year.",
+    "Is it worth it?": "Yes, for online shoppers who regularly transact on its 10 partner brands (Amazon, Flipkart, Myntra, Swiggy, Zomato, Uber, etc.) and can stay within the ₹1,000/month cashback cap — the 5% rate is among the best uncapped-brand rates available on an entry-level card.",
+    "Who should get this card?": "Salaried millennials and young professionals with online-shopping-heavy spending patterns who can comfortably clear ₹1,00,000 in annual spend to waive the fee.",
+    "Does it support UPI?": "No. It is issued on the Visa network, and Visa credit cards cannot currently be linked to UPI apps in India — only RuPay credit cards support UPI linkage.",
+    "Can I get lounge access with this card?": "Only conditionally. Since December 2023, free domestic lounge access is no longer automatic; you must spend ₹1,00,000 or more in a calendar quarter to earn a lounge-visit voucher as one of two milestone reward options.",
+    "What income is required to qualify?": "HDFC generally requires a net monthly income above ₹35,000 for salaried applicants, or an ITR above ₹6 lakh per annum for self-employed applicants.",
+    "Who should avoid this card?": "Heavy spenders who will blow past the ₹1,000/month cashback cap quickly, or anyone who wants guaranteed lounge access without hitting a spend threshold.",
+    "What are the best alternatives?": "Amazon Pay ICICI Credit Card (uncapped 5% on Amazon for Prime members, lifetime free) or SBI Card SimplyCLICK (10x rewards on select online brands) are worth comparing."
+  },
+  "calculator": {
+    "categories": [
+      {
+        "label": "Partner brand shopping (Amazon, Flipkart, Myntra, Swiggy, etc.)",
+        "matchesCashbackCategory": "Partner brands (Amazon, BookMyShow, Cult.fit, Flipkart, Myntra, Sony LIV, Swiggy, Tata CLiQ, Uber, Zomato)",
+        "defaultSpendInr": 8000
+      },
+      {
+        "label": "Other spends",
+        "matchesCashbackCategory": "All other spends",
+        "defaultSpendInr": 12000
+      }
+    ]
+  }
+}

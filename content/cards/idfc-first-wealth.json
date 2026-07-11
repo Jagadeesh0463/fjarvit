@@ -1,0 +1,53 @@
+{
+  "id": 16,
+  "slug": "idfc-first-wealth",
+  "bank": "idfc-first",
+  "network": "Visa",
+  "category": "travel",
+  "status": "active",
+  "annualFee": 0,
+  "joiningFee": 0,
+  "lifetimeFree": true,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [],
+    "rewardPoints": { "pointsPer": 3, "pointsPerAmount": 200, "pointValueInr": 0.25 },
+    "loungeAccess": {
+      "domesticVisitsPerQuarter": 1,
+      "internationalVisitsPerQuarter": 1,
+      "conditions": "Requires min. ₹20,000 spend in the current month to unlock lounge and golf access for the following month (revised effective 1 April 2026); also includes 1 complimentary golf round/lesson per quarter."
+    },
+    "movieBenefit": { "description": "Buy-One-Get-One movie ticket via the District app, discount up to ₹250 on the second ticket", "frequency": "twice per calendar month" },
+    "insuranceBenefit": { "type": "Trip Cancellation Cover", "coverageInr": 10000 }
+  },
+  "history": [
+    {
+      "attribute": "Reward Points Earning Base",
+      "oldValue": "10 Reward Points per ₹150 spent (10X tier, on monthly spends above ₹20,000)",
+      "newValue": "10 Reward Points per ₹200 spent (10X tier, on monthly spends above ₹20,000)",
+      "effectiveDate": "2026-01-18",
+      "source": {
+        "name": "IDFC FIRST Bank",
+        "document": "Important Update Regarding FIRST Wealth Credit Card",
+        "url": "https://www.idfcfirst.bank.in/content/dam/idfcfirstbank/pdf/credit-card/Wealth-1-Credit-Card.pdf"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "Yes, IDFC FIRST Wealth has no joining fee and zero annual fee for life, with no minimum spend condition required to keep the fee waived.",
+    "Is it worth it?": "It's a strong no-fee option for high spenders — you get lounge access, golf, a low 1.5% forex markup, and reward points that don't expire, but only if you consistently cross ₹20,000 in monthly spends; below that threshold the base reward rate is fairly low for a premium card.",
+    "Who should get this card?": "Higher-income individuals who spend more than ₹20,000/month and travel internationally, and want a free premium card without an annual fee.",
+    "Does it support UPI?": "The standard Visa variant does not support UPI directly, but IDFC FIRST offers a separate RuPay variant of FIRST Wealth (₹199 annual fee) that can be linked to UPI apps for 3X reward points on UPI spends.",
+    "Can I get lounge access with this card?": "Yes — 1 complimentary domestic and 1 international airport lounge visit per quarter, plus a quarterly golf round, but only if you spent at least ₹20,000 in the previous month.",
+    "What income is required to qualify?": "IDFC FIRST Wealth generally targets high-income applicants, with reported eligibility around ₹36 lakh annual income.",
+    "Who should avoid this card?": "Lower or irregular spenders who won't consistently hit the ₹20,000 monthly threshold will get a low base reward rate and lose lounge/golf access; those wanting a simpler premium card with richer guaranteed benefits may prefer a fee-based alternative.",
+    "What are the best alternatives?": "HDFC Diners Club Black, HDFC Regalia Gold, or SBI Card Elite offer richer benefits for cardholders willing to pay an annual fee."
+  },
+  "calculator": {
+    "categories": [
+      { "label": "Monthly spends above ₹20,000 (10X tier)", "matchesCashbackCategory": "Accelerated spends", "defaultSpendInr": 30000 },
+      { "label": "Monthly spends up to ₹20,000 (3X tier)", "matchesCashbackCategory": "Base spends", "defaultSpendInr": 15000 },
+      { "label": "Rent, education & wallet load", "matchesCashbackCategory": "Rent & education", "defaultSpendInr": 10000 }
+    ]
+  }
+}

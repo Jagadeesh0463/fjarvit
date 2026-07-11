@@ -1,0 +1,35 @@
+{
+  "id": 18,
+  "slug": "indusind-platinum-aura-edge",
+  "bank": "indusind",
+  "network": "Visa",
+  "category": "lifetime-free",
+  "status": "active",
+  "annualFee": 0,
+  "joiningFee": 0,
+  "lifetimeFree": true,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [],
+    "rewardPoints": { "pointsPer": 4, "pointsPerAmount": 100, "pointValueInr": 0.4 },
+    "fuelBenefit": { "surchargeWaiverPercent": 1, "minTransactionInr": 500, "maxTransactionInr": 3000 }
+  },
+  "history": [],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "Yes, IndusInd Platinum Aura Edge has no joining fee and no annual fee.",
+    "Is it worth it?": "It's a reasonable entry-level free card if you like its unique 'choose your plan' (Home/Shop/Travel/Party) reward structure, but the base reward rate of 0.5 points per ₹100 on non-accelerated categories is low, and it lacks lounge access or other lifestyle perks.",
+    "Who should get this card?": "First-time credit cardholders who want a no-fee card with customizable rewards aligned to one dominant spending pattern (groceries, shopping, travel, or dining).",
+    "Does it support UPI?": "No. This card is issued on the Visa/Mastercard network, not RuPay, so it cannot be linked to UPI apps; IndusInd offers a separate Platinum RuPay Credit Card for UPI-linked spending.",
+    "Can I get lounge access with this card?": "No, this card does not offer any airport or railway lounge access.",
+    "What income is required to qualify?": "As an entry-level card, IndusInd generally applies relaxed eligibility criteria; exact income thresholds are not publicly standardized and depend on the bank's internal assessment.",
+    "Who should avoid this card?": "High spenders wanting lounge access, movie benefits, or a higher blanket reward rate should look elsewhere, since this card's base reward rate is low outside your chosen plan's top category, and redemption is capped monthly.",
+    "What are the best alternatives?": "Axis Bank ACE Credit Card or HDFC Millennia Credit Card offer more consistent cashback/reward value."
+  },
+  "calculator": {
+    "categories": [
+      { "label": "Top category in chosen plan (e.g. groceries, hotels, dining)", "matchesCashbackCategory": "Accelerated plan category", "defaultSpendInr": 8000 },
+      { "label": "Secondary category in chosen plan", "matchesCashbackCategory": "Secondary plan category", "defaultSpendInr": 5000 },
+      { "label": "Other spends", "matchesCashbackCategory": "Other spends", "defaultSpendInr": 10000 }
+    ]
+  }
+}

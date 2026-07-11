@@ -1,6 +1,13 @@
 import { CurrentBenefits } from "@/types/card";
 import { formatInr } from "@/constants/fees";
 
+// Convention: a lounge visit count of 99+ means "unlimited" (some premium
+// cards genuinely have no cap). Real per-quarter counts never reach this
+// high, so it's a safe sentinel rather than a separate boolean field.
+function formatVisits(n: number): string {
+  return n >= 99 ? "Unlimited" : `${n}`;
+}
+
 export function BenefitTable({ benefits }: { benefits: CurrentBenefits }) {
   return (
     <table className="w-full border-collapse text-sm">
@@ -23,8 +30,8 @@ export function BenefitTable({ benefits }: { benefits: CurrentBenefits }) {
           <tr className="border-b border-gray-100">
             <td className="py-2 pr-4">Lounge access</td>
             <td className="py-2 pr-4" colSpan={2}>
-              {benefits.loungeAccess.domesticVisitsPerQuarter} domestic /{" "}
-              {benefits.loungeAccess.internationalVisitsPerQuarter} international visits per quarter
+              {formatVisits(benefits.loungeAccess.domesticVisitsPerQuarter)} domestic /{" "}
+              {formatVisits(benefits.loungeAccess.internationalVisitsPerQuarter)} international visits per quarter
             </td>
           </tr>
         )}

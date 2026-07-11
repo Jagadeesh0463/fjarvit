@@ -1,0 +1,86 @@
+{
+  "id": 10,
+  "slug": "axis-ace",
+  "bank": "axis",
+  "network": "Visa",
+  "category": "cashback",
+  "status": "active",
+  "annualFee": 499,
+  "joiningFee": 499,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [
+      {
+        "category": "Bill payments via Google Pay",
+        "rate": 5,
+        "cap": 500,
+        "notes": "Shares a combined ₹500/month cap with the Swiggy, Zomato, Ola category"
+      },
+      {
+        "category": "Swiggy, Zomato, Ola",
+        "rate": 4,
+        "cap": 500,
+        "notes": "Shares the combined ₹500/month cap with Google Pay bill payments"
+      },
+      {
+        "category": "All other spends",
+        "rate": 1.5,
+        "notes": "Uncapped; rent, fuel, wallet loads, EMI, gold/jewellery, cash advances and insurance are excluded from cashback"
+      }
+    ],
+    "loungeAccess": {
+      "domesticVisitsPerQuarter": 1,
+      "internationalVisitsPerQuarter": 0,
+      "conditions": "Up to 4 domestic lounge visits a year, gated on ₹50,000 spend in the preceding 3 months; waived for the first 4 months on a new card."
+    },
+    "fuelBenefit": {
+      "surchargeWaiverPercent": 1,
+      "capInr": 500,
+      "minTransactionInr": 400,
+      "maxTransactionInr": 4000
+    }
+  },
+  "history": [
+    {
+      "attribute": "Base Cashback Rate (All Other Spends)",
+      "oldValue": "2% uncapped",
+      "newValue": "1.5% uncapped",
+      "effectiveDate": "2024-04-20",
+      "source": {
+        "name": "CardInsider",
+        "document": "All Major Axis Bank Credit Cards Devalued – Effective April 2024",
+        "url": "https://cardinsider.com/blog/all-major-axis-bank-credit-cards-devalued/"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No, it has a ₹499 joining fee and ₹499 annual fee (from the second year), which Axis waives if you spend ₹2,00,000 or more in the preceding year.",
+    "Is it worth it?": "Yes, for most everyday spenders — 5% on Google Pay bill payments and 4% on Swiggy/Zomato/Ola, plus an uncapped 1.5% base rate, comfortably outweigh the low ₹499 fee, though the shared ₹500/month cap limits value for very high spenders in those categories.",
+    "Who should get this card?": "People who pay recurring bills or recharges through Google Pay and regularly order via Swiggy, Zomato, or book Ola cabs, and want a low-fee everyday cashback card.",
+    "Does it support UPI?": "The standard Visa ACE card is not UPI-linkable, but Axis also issues an ACE RuPay variant that can be linked to UPI apps.",
+    "Can I get lounge access with this card?": "Yes, up to 4 complimentary domestic lounge visits a year, but only if you spent ₹50,000 or more in the preceding 3 months (waived for the first 4 months after issuance).",
+    "What income is required to qualify?": "Axis Bank does not publish a fixed minimum income for the ACE card; applicants generally need a steady monthly income, an existing banking relationship, and a reasonable credit score.",
+    "Who should avoid this card?": "Users who don't pay bills via Google Pay or use Swiggy/Zomato/Ola won't get much value beyond the flat 1.5%, and heavy spenders in the bonus categories will find the ₹500/month combined cap limiting.",
+    "What are the best alternatives?": "Flipkart Axis Bank Credit Card if you shop heavily online, or Amazon Pay ICICI Credit Card for a lifetime-free alternative with strong Amazon cashback."
+  },
+  "calculator": {
+    "categories": [
+      {
+        "label": "Google Pay bill payments",
+        "matchesCashbackCategory": "Bill payments via Google Pay",
+        "defaultSpendInr": 3000
+      },
+      {
+        "label": "Swiggy / Zomato / Ola",
+        "matchesCashbackCategory": "Swiggy, Zomato, Ola",
+        "defaultSpendInr": 4000
+      },
+      {
+        "label": "Other spends",
+        "matchesCashbackCategory": "All other spends",
+        "defaultSpendInr": 15000
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": 12,
+  "slug": "axis-magnus",
+  "bank": "axis",
+  "network": "Mastercard",
+  "category": "travel",
+  "status": "active",
+  "annualFee": 12500,
+  "joiningFee": 12500,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [],
+    "rewardPoints": {
+      "pointsPer": 12,
+      "pointsPerAmount": 200
+    },
+    "loungeAccess": {
+      "domesticVisitsPerQuarter": 999,
+      "internationalVisitsPerQuarter": 999,
+      "conditions": "Marketed as UNLIMITED complimentary domestic and international lounge access (international via a bundled Priority Pass with 4 additional guest visits/year) for primary and add-on cardholders — the numeric fields above are placeholders for 'unlimited', not literal visit counts. Access requires ₹50,000 spend in the preceding quarter (waived for the first 3 months after card issuance)."
+    },
+    "milestoneBenefits": [
+      {
+        "spendThresholdInr": 2500000,
+        "period": "annual",
+        "reward": "Annual fee (₹12,500 + GST) waived"
+      }
+    ]
+  },
+  "history": [
+    {
+      "attribute": "Monthly Milestone Reward Points",
+      "oldValue": "25,000 bonus EDGE Reward Points for ₹1 lakh+ spend in a calendar month (on top of base earn)",
+      "newValue": "Monthly milestone reward points benefit discontinued",
+      "effectiveDate": "2025-05-01",
+      "source": {
+        "name": "Paisabazaar",
+        "document": "Axis Magnus Devaluation: Is it still the best travel credit card?",
+        "url": "https://www.paisabazaar.com/credit-card/axis-magnus-devaluation/"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No. It carries a joining and annual fee of ₹12,500 + GST, waived from the second year if you spend ₹25 lakh or more in the preceding year.",
+    "Is it worth it?": "It can be, for very high spenders and frequent travellers who value unlimited lounge access and can redeem EDGE Reward Points against airline/hotel partners, but the 2025 removal of the monthly milestone bonus has meaningfully reduced its earning potential for big spenders.",
+    "Who should get this card?": "High-income individuals (roughly ₹24 lakh+ annual income) who travel often, want unlimited domestic and international lounge access, and can transfer reward points to airline/hotel loyalty programs.",
+    "Does it support UPI?": "No, the standard Mastercard World card is not linkable to UPI.",
+    "Can I get lounge access with this card?": "Yes — unlimited complimentary domestic and international lounge access (international via a bundled Priority Pass with 4 guest visits/year), conditional on ₹50,000 spend in the preceding quarter (waived for the first 3 months on a new card).",
+    "What income is required to qualify?": "Axis Bank's stated eligibility is a minimum annual income of around ₹24 lakh (salaried, or via ITR for self-employed applicants).",
+    "Who should avoid this card?": "Anyone who can't consistently spend ₹50,000+ a quarter (to keep lounge access active) or ₹25 lakh a year (for the fee waiver), and anyone who primarily wanted the now-discontinued monthly milestone bonus points.",
+    "What are the best alternatives?": "HDFC Infinia for a comparable ultra-premium travel card, or Axis Magnus for Burgundy if you already bank with Axis Burgundy and can get the fee waived through your relationship."
+  },
+  "calculator": {
+    "categories": [
+      {
+        "label": "Overall monthly spend",
+        "matchesCashbackCategory": "All spends",
+        "defaultSpendInr": 150000
+      },
+      {
+        "label": "Travel & dining spend",
+        "matchesCashbackCategory": "Travel and dining",
+        "defaultSpendInr": 50000
+      }
+    ]
+  }
+}

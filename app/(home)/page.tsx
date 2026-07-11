@@ -37,7 +37,7 @@ export default function HomePage() {
         <ul className="mt-4 divide-y divide-gray-100">
           {recentChanges.map(({ card, entry }, i) => (
             <li key={i} className="py-3">
-              <Link href={routes.card(card.slug)} className="text-sm font-medium text-brand hover:underline">
+              <Link href={routes.change(card.slug)} className="text-sm font-medium text-brand hover:underline">
                 {card.slug.replace(/-/g, " ")}
               </Link>
               <p className="text-sm text-gray-600">

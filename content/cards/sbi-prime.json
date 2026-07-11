@@ -1,0 +1,83 @@
+{
+  "id": 7,
+  "slug": "sbi-prime",
+  "bank": "sbi",
+  "network": "Visa",
+  "category": "lounge",
+  "status": "active",
+  "annualFee": 2999,
+  "joiningFee": 2999,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [],
+    "rewardPoints": {
+      "pointsPer": 10,
+      "pointsPerAmount": 100
+    },
+    "loungeAccess": {
+      "domesticVisitsPerQuarter": 2,
+      "internationalVisitsPerQuarter": 2,
+      "conditions": "8 domestic lounge visits per calendar year (2/quarter) and 4 international Priority Pass visits per calendar year, capped at 2 per quarter. Domestic lounge network was restructured into Set A/Set B tiers from January 2026."
+    },
+    "fuelBenefit": {
+      "surchargeWaiverPercent": 1,
+      "capInr": 250,
+      "minTransactionInr": 500,
+      "maxTransactionInr": 4000
+    }
+  },
+  "history": [
+    {
+      "attribute": "Complimentary Lifestyle Memberships",
+      "oldValue": "Complimentary Club Vistara Silver tier and Trident Privilege Red tier memberships included",
+      "newValue": "Club Vistara Silver and Trident Privilege Red tier memberships discontinued",
+      "effectiveDate": "2026-01-10",
+      "source": {
+        "name": "CardInsider",
+        "document": "Airport Lounge Access Takes a Hit – SBI Card Revises Benefits for Popular Credit Cards",
+        "url": "https://cardinsider.com/blog/airport-lounge-access-takes-hit-sbi-card-revises-benefits-popular-credit-cards/"
+      }
+    },
+    {
+      "attribute": "Domestic Lounge Access Network",
+      "oldValue": "Single unified domestic lounge list applicable across eligible SBI credit cards",
+      "newValue": "Domestic lounges split into Set A and Set B tiers, with eligibility depending on the specific card variant held",
+      "effectiveDate": "2026-01-10",
+      "source": {
+        "name": "Business Standard",
+        "document": "SBI Card's new lounge access rules from 2026: Key changes for flyers",
+        "url": "https://www.business-standard.com/finance/personal-finance/sbi-card-s-new-lounge-access-rules-from-2026-key-changes-for-flyers-125121000540_1.html"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No. It has a ₹2,999 + taxes joining and annual fee, waived on renewal if you spend ₹3,00,000 or more in the preceding year.",
+    "Is it worth it?": "It's a reasonable mid-premium travel card for its generous 8 domestic + 4 international lounge visits a year and 10 points per ₹100 on dining/groceries/department stores/movies, but its standalone travel-lifestyle perks were trimmed in the January 2026 revision (Club Vistara and Trident Privilege memberships dropped).",
+    "Who should get this card?": "Frequent domestic travellers who value airport lounge access and spend heavily in dining, groceries, and department stores, and who can clear the ₹3 lakh annual spend to waive the fee.",
+    "Does it support UPI?": "No. It is issued on the Visa network, and Visa credit cards cannot currently be linked to UPI apps in India.",
+    "Can I get lounge access with this card?": "Yes — 2 complimentary domestic lounge visits per quarter (8/year) and up to 2 international Priority Pass visits per quarter (4/year), though the domestic lounge network was restructured into tiers in January 2026.",
+    "What income is required to qualify?": "SBI Card PRIME is a premium product; reported minimum income requirements are around ₹3 lakh/month for salaried applicants (or an ITR of roughly ₹36 lakh/year for self-employed applicants) — confirm current criteria with SBI Card before applying.",
+    "Who should avoid this card?": "Infrequent travellers who won't use the lounge access, or anyone who wanted the now-discontinued Club Vistara/Trident Privilege memberships as a core reason to hold the card.",
+    "What are the best alternatives?": "HDFC Regalia Gold or Axis Vistara Signature/Infinite for comparable lounge access plus stronger travel loyalty tie-ins."
+  },
+  "calculator": {
+    "categories": [
+      {
+        "label": "Dining and movies",
+        "matchesCashbackCategory": "All spends",
+        "defaultSpendInr": 8000
+      },
+      {
+        "label": "Groceries and department stores",
+        "matchesCashbackCategory": "All spends",
+        "defaultSpendInr": 10000
+      },
+      {
+        "label": "Other spends",
+        "matchesCashbackCategory": "All spends",
+        "defaultSpendInr": 15000
+      }
+    ]
+  }
+}

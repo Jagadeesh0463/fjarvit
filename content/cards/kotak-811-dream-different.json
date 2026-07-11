@@ -1,0 +1,61 @@
+{
+  "id": 13,
+  "slug": "kotak-811-dream-different",
+  "bank": "kotak",
+  "network": "Visa",
+  "category": "lifetime-free",
+  "status": "active",
+  "annualFee": 0,
+  "joiningFee": 0,
+  "lifetimeFree": true,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [],
+    "rewardPoints": {
+      "pointsPer": 1,
+      "pointsPerAmount": 100,
+      "pointValueInr": 0.2
+    },
+    "fuelBenefit": {
+      "surchargeWaiverPercent": 1,
+      "capInr": 3500
+    },
+    "milestoneBenefits": [
+      {
+        "spendThresholdInr": 72000,
+        "period": "annual",
+        "reward": "₹1,000 Woohoo voucher"
+      },
+      {
+        "spendThresholdInr": 1000,
+        "period": "first 30 days from card issuance",
+        "reward": "3 months of OTTplay subscription at ₹1 plus a ₹250 Woohoo voucher"
+      }
+    ]
+  },
+  "history": [],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "Yes, it has zero joining fee and zero annual fee for life.",
+    "Is it worth it?": "Yes, especially as a first credit card or credit-builder — since it's issued against a small fixed deposit with no income proof needed, it's a low-risk, no-cost way to build a credit history, though the reward rate and overall benefits are modest.",
+    "Who should get this card?": "First-time credit card users, students, homemakers, or anyone without formal income proof who wants to build a credit score using a fixed deposit as security.",
+    "Does it support UPI?": "Yes, it can be linked to UPI apps for payments.",
+    "Can I get lounge access with this card?": "No, this card does not offer complimentary airport lounge access.",
+    "What income is required to qualify?": "None — no income proof is required. The card is secured against a fixed deposit (minimums cited range from roughly ₹5,000 to ₹10,000+), with the credit limit set at up to 90% of the FD amount.",
+    "Who should avoid this card?": "Spenders who want strong ongoing rewards or lounge access, or anyone who doesn't want to lock money into a fixed deposit to get a credit line.",
+    "What are the best alternatives?": "SBI SimplyCLICK or Axis ACE if you can qualify with income proof and want stronger rewards; another FD-backed option is the SBI Card Unnati."
+  },
+  "calculator": {
+    "categories": [
+      {
+        "label": "Online spends",
+        "matchesCashbackCategory": "Online spends",
+        "defaultSpendInr": 5000
+      },
+      {
+        "label": "Offline spends",
+        "matchesCashbackCategory": "Offline spends",
+        "defaultSpendInr": 5000
+      }
+    ]
+  }
+}

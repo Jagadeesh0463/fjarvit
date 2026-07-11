@@ -1,0 +1,48 @@
+{
+  "id": 17,
+  "slug": "indusind-legend",
+  "bank": "indusind",
+  "network": "Visa",
+  "category": "travel",
+  "status": "active",
+  "annualFee": 0,
+  "joiningFee": 9999,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [],
+    "rewardPoints": { "pointsPer": 1, "pointsPerAmount": 100 },
+    "fuelBenefit": { "surchargeWaiverPercent": 1, "capInr": 100, "minTransactionInr": 500, "maxTransactionInr": 3000 },
+    "movieBenefit": { "description": "Buy one movie ticket via BookMyShow, get the second ticket free" }
+  },
+  "history": [
+    {
+      "attribute": "Airport Lounge Access",
+      "oldValue": "Complimentary domestic and international airport lounge access included",
+      "newValue": "Complimentary airport lounge access discontinued; replaced with complimentary Priority Pass membership (600+ airport lounges)",
+      "effectiveDate": "2025-03-07",
+      "source": {
+        "name": "IndusInd Bank",
+        "document": "Legend Credit Card Benefit Guide",
+        "url": "https://www.indusind.bank.in/content/dam/indusind-corporate/Other/welcomekit/credit-card-benefits/Legend_Benefit_Guide_02-01-2026.pdf"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No. It carries a one-time joining fee of around ₹9,999 (sometimes waived depending on the application channel/offer), but there is no separate annual/renewal fee thereafter.",
+    "Is it worth it?": "It can be worth it for frequent international travellers who value the low 1.8% forex markup and concierge services, but the discontinuation of complimentary airport lounge access since March 2025 has reduced its value versus other premium travel cards, which now only offer a Priority Pass membership in its place.",
+    "Who should get this card?": "Frequent international travellers who want a low forex markup, concierge services, and BOGO movie tickets, and who are comfortable paying a one-time joining fee.",
+    "Does it support UPI?": "No. The Legend card is issued on the Visa Signature network and does not support UPI linking; IndusInd offers separate RuPay cards elsewhere in its portfolio for UPI use.",
+    "Can I get lounge access with this card?": "Complimentary airport lounge access was discontinued from 7 March 2025. The card now offers a complimentary Priority Pass membership instead; confirm current per-visit terms with IndusInd Bank before relying on this benefit.",
+    "What income is required to qualify?": "Not clearly published; as a premium card it typically targets higher-income salaried or self-employed applicants — confirm current eligibility with IndusInd Bank.",
+    "Who should avoid this card?": "Travellers who specifically want guaranteed free airport lounge access, or anyone unwilling to pay the upfront joining fee for a card with no other ongoing annual fee.",
+    "What are the best alternatives?": "Axis Bank Magnus, HDFC Diners Club Black, or SBI Card Elite for cardholders who want guaranteed complimentary lounge access."
+  },
+  "calculator": {
+    "categories": [
+      { "label": "Weekday spends", "matchesCashbackCategory": "Weekday spends", "defaultSpendInr": 20000 },
+      { "label": "Weekend spends", "matchesCashbackCategory": "Weekend spends", "defaultSpendInr": 10000 },
+      { "label": "International/travel spends", "matchesCashbackCategory": "Travel", "defaultSpendInr": 15000 }
+    ]
+  }
+}

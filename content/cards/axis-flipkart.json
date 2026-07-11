@@ -1,0 +1,96 @@
+{
+  "id": 11,
+  "slug": "axis-flipkart",
+  "bank": "axis",
+  "network": "Visa",
+  "category": "cashback",
+  "status": "active",
+  "annualFee": 500,
+  "joiningFee": 500,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [
+      {
+        "category": "Flipkart",
+        "rate": 5,
+        "cap": 4000,
+        "notes": "Capped per statement quarter, combined with Cleartrip"
+      },
+      {
+        "category": "Myntra",
+        "rate": 7.5,
+        "cap": 4000,
+        "notes": "Capped per statement quarter"
+      },
+      {
+        "category": "Cleartrip",
+        "rate": 5,
+        "cap": 4000,
+        "notes": "Capped per statement quarter, combined with Flipkart"
+      },
+      {
+        "category": "Preferred partners (Swiggy, Uber, PVR, cult.fit etc.)",
+        "rate": 4
+      },
+      {
+        "category": "All other spends",
+        "rate": 1,
+        "notes": "Unlimited; excludes fuel, rent, EMI, wallet loads, gold/jewellery, insurance, utilities, government and education payments"
+      }
+    ],
+    "fuelBenefit": {
+      "surchargeWaiverPercent": 1,
+      "capInr": 400,
+      "minTransactionInr": 400,
+      "maxTransactionInr": 4000
+    }
+  },
+  "history": [
+    {
+      "attribute": "Complimentary Domestic Lounge Access",
+      "oldValue": "4 complimentary domestic lounge visits/year, gated on ₹50,000 spend in preceding 3 months (since May 2024)",
+      "newValue": "Complimentary domestic lounge access discontinued",
+      "effectiveDate": "2025-06-20",
+      "source": {
+        "name": "Finology Select",
+        "document": "Flipkart Axis Credit Card Update: Lounge Access Removed & More",
+        "url": "https://select.finology.in/articles/credit-card/flipkart-axis-bank-credit-card-devaluation"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No, it has a ₹500 joining fee and ₹500 annual fee (from year two), waived if you spend ₹3,50,000 or more (excluding rent and wallet loads) in the preceding year.",
+    "Is it worth it?": "Yes for regular Flipkart/Myntra shoppers — 5% on Flipkart, 7.5% on Myntra and 4% on preferred partners like Swiggy and Uber add up quickly, though the quarterly caps and the 2025 removal of lounge access have reduced its overall value.",
+    "Who should get this card?": "Frequent Flipkart, Myntra, Cleartrip, Swiggy or Uber users who want strong cashback specifically on those platforms.",
+    "Does it support UPI?": "No, the standard Visa version cannot be linked to UPI apps.",
+    "Can I get lounge access with this card?": "No. Complimentary domestic lounge access was discontinued for this card effective 20 June 2025.",
+    "What income is required to qualify?": "Axis Bank doesn't publish an exact minimum, but as an entry-level card it typically requires a steady monthly income and a reasonable credit score.",
+    "Who should avoid this card?": "Shoppers who rarely use Flipkart, Myntra or Cleartrip won't get much beyond the base 1%, and travellers who valued the now-discontinued lounge access should look elsewhere.",
+    "What are the best alternatives?": "Axis ACE for broader everyday cashback (bills, Swiggy, Zomato, Ola), or Amazon Pay ICICI Credit Card if you shop more on Amazon than Flipkart."
+  },
+  "calculator": {
+    "categories": [
+      {
+        "label": "Flipkart shopping",
+        "matchesCashbackCategory": "Flipkart",
+        "defaultSpendInr": 5000
+      },
+      {
+        "label": "Myntra shopping",
+        "matchesCashbackCategory": "Myntra",
+        "defaultSpendInr": 2000
+      },
+      {
+        "label": "Preferred partners (Swiggy/Uber/PVR)",
+        "matchesCashbackCategory": "Preferred partners (Swiggy, Uber, PVR, cult.fit etc.)",
+        "defaultSpendInr": 3000
+      },
+      {
+        "label": "Other spends",
+        "matchesCashbackCategory": "All other spends",
+        "defaultSpendInr": 10000
+      }
+    ]
+  }
+}

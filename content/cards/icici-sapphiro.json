@@ -1,0 +1,87 @@
+{
+  "id": 9,
+  "slug": "icici-sapphiro",
+  "bank": "icici",
+  "network": "Visa",
+  "category": "travel",
+  "status": "active",
+  "annualFee": 3500,
+  "joiningFee": 6500,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [],
+    "rewardPoints": {
+      "pointsPer": 2,
+      "pointsPerAmount": 100
+    },
+    "loungeAccess": {
+      "domesticVisitsPerQuarter": 4,
+      "internationalVisitsPerQuarter": 2,
+      "conditions": "Domestic: 4 visits per quarter, gated on ₹75,000 spend in the previous calendar quarter (unlocks access for the following quarter). International: a total of 2 complimentary visits per calendar year (not per quarter), with no minimum spend requirement, primary cardholder only."
+    },
+    "fuelBenefit": {
+      "surchargeWaiverPercent": 1,
+      "capInr": 400,
+      "minTransactionInr": 400,
+      "maxTransactionInr": 4000
+    },
+    "movieBenefit": {
+      "description": "Complimentary movie/event ticket offer via BookMyShow",
+      "frequency": "Requires ₹25,000+ spend in the preceding calendar quarter"
+    },
+    "insuranceBenefit": {
+      "type": "Air accident cover",
+      "coverageInr": 30000000
+    },
+    "milestoneBenefits": [
+      {
+        "spendThresholdInr": 600000,
+        "period": "annual",
+        "reward": "Annual fee waiver plus 48 complimentary golf games"
+      }
+    ]
+  },
+  "history": [
+    {
+      "attribute": "Domestic Lounge Access Spend Requirement",
+      "oldValue": "₹25,000 spend per calendar quarter",
+      "newValue": "₹75,000 spend per calendar quarter",
+      "effectiveDate": "2025-01-01",
+      "source": {
+        "name": "ICICI Bank",
+        "document": "Upcoming changes to Credit Card features and charges",
+        "url": "https://www.icici.bank.in/personal-banking/cards/credit-card/upcoming-changes-features-and-charges"
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No. It carries a joining fee of ₹6,500 + GST and an annual fee of ₹3,500 + GST from the second year, waived if you spend over ₹6 lakh in the preceding year.",
+    "Is it worth it?": "It can be worth it for frequent domestic/international travellers who can clear the ₹75,000/quarter spend needed for lounge access and reach ₹6 lakh in annual spend for the fee waiver and golf benefits; casual spenders may find the fees hard to justify.",
+    "Who should get this card?": "Frequent flyers and travel-focused spenders who can consistently spend ₹75,000+ per quarter to unlock lounge access, and who value air accident cover and BookMyShow movie offers.",
+    "Does it support UPI?": "The RuPay variant of the Sapphiro can be linked to UPI apps; the standard Visa/Mastercard variants cannot be used for UPI payments.",
+    "Can I get lounge access with this card?": "Yes — 4 complimentary domestic lounge visits per quarter (conditional on ₹75,000 spend in the prior quarter) and 2 complimentary international lounge visits per calendar year, for the primary cardholder.",
+    "What income is required to qualify?": "ICICI Bank does not publish a fixed minimum income for the Sapphiro, but as a premium travel card it typically requires a stable, high income/salary and a strong credit history.",
+    "Who should avoid this card?": "Low or irregular spenders who won't reach the ₹75,000 quarterly spend for lounge access, since the fees are relatively high for a card whose best perks are spend-gated.",
+    "What are the best alternatives?": "HDFC Regalia Gold or Axis Magnus for higher travel value at a similar or higher fee, or a lifetime-free card like Kotak 811 if the annual fee itself is the concern."
+  },
+  "calculator": {
+    "categories": [
+      {
+        "label": "International spends",
+        "matchesCashbackCategory": "International spends",
+        "defaultSpendInr": 20000
+      },
+      {
+        "label": "Domestic spends",
+        "matchesCashbackCategory": "Domestic spends",
+        "defaultSpendInr": 15000
+      },
+      {
+        "label": "Utility & insurance spends",
+        "matchesCashbackCategory": "Utility and insurance spends",
+        "defaultSpendInr": 5000
+      }
+    ]
+  }
+}

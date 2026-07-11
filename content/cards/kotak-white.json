@@ -1,0 +1,57 @@
+{
+  "id": 14,
+  "slug": "kotak-white",
+  "bank": "kotak",
+  "network": "Mastercard",
+  "category": "lounge",
+  "status": "active",
+  "annualFee": 3000,
+  "joiningFee": 3000,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [],
+    "loungeAccess": {
+      "domesticVisitsPerQuarter": 2,
+      "internationalVisitsPerQuarter": 1,
+      "conditions": "8 complimentary domestic lounge visits per year (2/quarter) plus a complimentary Priority Pass membership giving 4 free international lounge visits per year; USD 35 per visit thereafter and for guests. Kotak revised the lounge program terms effective 1 April 2026 — confirm current visit counts directly with Kotak before relying on them."
+    },
+    "milestoneBenefits": [
+      {
+        "spendThresholdInr": 1200000,
+        "period": "annual",
+        "reward": "Up to ₹27,000 in White Pass value, redeemable for travel, luxury brands and curated experiences"
+      },
+      {
+        "spendThresholdInr": 30000,
+        "period": "first 60 days from card set-up",
+        "reward": "₹1,500 White Pass value welcome bonus"
+      }
+    ]
+  },
+  "history": [],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No, it carries a ₹3,000 + GST joining fee and ₹3,000 + GST annual fee, waived if you spend ₹5 lakh or more in the preceding year.",
+    "Is it worth it?": "It suits frequent domestic travellers who value lounge access — 8 domestic visits plus Priority Pass-based international access is strong for a ₹3,000 fee — but the White Pass reward structure only pays off at high annual spend levels (₹12 lakh+), so occasional spenders may not see much extra value.",
+    "Who should get this card?": "Frequent domestic flyers who want easy airport lounge access at a moderate annual fee, and high spenders who can hit the White Pass milestone thresholds.",
+    "Does it support UPI?": "Yes, it can be linked to UPI apps for payments.",
+    "Can I get lounge access with this card?": "Yes — up to 8 complimentary domestic lounge visits a year (2 per quarter) plus a complimentary Priority Pass membership for 4 free international visits a year. Kotak revised the lounge program terms effective 1 April 2026, so confirm current visit counts before travel.",
+    "What income is required to qualify?": "Kotak does not publish an exact minimum for this card; as a mid-premium travel card it generally requires a stable, moderate-to-high income and a good credit score.",
+    "Who should avoid this card?": "Low spenders who won't reach the ₹5 lakh annual spend threshold for the fee waiver, or those who prefer straightforward cashback over a milestone-based White Pass rewards system.",
+    "What are the best alternatives?": "Kotak White Reserve for a higher tier of lounge/travel benefits, or Axis Magnus/ICICI Sapphiro for stronger travel rewards at a higher fee."
+  },
+  "calculator": {
+    "categories": [
+      {
+        "label": "Monthly spend",
+        "matchesCashbackCategory": "All spends",
+        "defaultSpendInr": 50000
+      },
+      {
+        "label": "Annual total spend (for White Pass milestone)",
+        "matchesCashbackCategory": "Annual spend",
+        "defaultSpendInr": 600000
+      }
+    ]
+  }
+}

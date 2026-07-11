@@ -1,7 +1,12 @@
 import { notFound } from "next/navigation";
 import { getAllCards, getCardBySlug, getRelatedCards } from "@/lib/content/getCards";
 import { getBankBySlug } from "@/constants/banks";
-import { buildCardMetadata, buildFaqSchema, buildBreadcrumbSchema } from "@/lib/seo/buildMetadata";
+import {
+  buildCardMetadata,
+  buildFaqSchema,
+  buildBreadcrumbSchema,
+  buildArticleSchema,
+} from "@/lib/seo/buildMetadata";
 import { BenefitTable } from "@/components/cards/BenefitTable";
 import { ChangeTimeline } from "@/components/cards/ChangeTimeline";
 import { FaqAccordion } from "@/components/faq/FaqAccordion";
@@ -9,6 +14,7 @@ import { SpendCalculator } from "@/components/calculator/SpendCalculator";
 import { StatusBadge } from "@/components/cards/StatusBadge";
 import { NetworkBadge } from "@/components/cards/NetworkBadge";
 import { CardTile } from "@/components/cards/CardTile";
+import { AlertBanner } from "@/components/ui/AlertBanner";
 import { routes } from "@/constants/routes";
 
 export function generateStaticParams() {
@@ -38,11 +44,26 @@ export default function CardDetailPage({ params }: { params: { slug: string } })
     { name: bank?.name ?? card.bank, url: routes.bank(card.bank) },
     { name: card.slug.replace(/-/g, " "), url: routes.card(card.slug) },
   ]);
+  const articleSchema = buildArticleSchema(card);
 
   return (
     <article className="space-y-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+
+      {card.status === "discontinued" && (
+        <AlertBanner variant="danger">
+          This card has been discontinued and is no longer accepting new applications. Benefit
+          details below reflect the last verified terms for existing cardholders.
+        </AlertBanner>
+      )}
+      {card.status === "invite_only" && (
+        <AlertBanner variant="warning">
+          This card is currently invite-only. You cannot apply directly — the issuing bank selects
+          eligible customers.
+        </AlertBanner>
+      )}
 
       <header>
         <div className="flex items-center gap-2">
