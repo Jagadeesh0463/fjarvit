@@ -1,5 +1,10 @@
 # Fjarvit
 
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-38bdf8?logo=tailwindcss)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+
 Fjarvit tracks how credit card benefits in India actually change over time —
 cashback caps that get tightened, lounge access that gets cut, fees that
 change — with dated, sourced before/after evidence instead of just a
@@ -11,14 +16,20 @@ from official bank publications and other publicly available sources.
 Always confirm current terms and eligibility with the issuing bank before
 applying.
 
+## 🌐 Live Demo
+
+_Coming soon — deployment in progress._
+
 ## Features
 
 - Card directory, individual card pages, bank pages, and category pages
 - Same-category comparison pages
-- A spend calculator that estimates real cashback/rewards for a given
-  monthly spend
+- A spend calculator that estimates cashback and rewards based on the
+  currently curated card data for a given monthly spend
 - A dated change-history timeline per card, each entry backed by a named
   source
+- A "Last Verified" date on every card, showing when its terms were most
+  recently reviewed — not a one-time snapshot that goes stale silently
 - Per-card FAQ, built from a shared question template plus card-specific
   overrides
 - Full schema.org structured data (FAQ, Breadcrumb, Article, WebSite,
