@@ -1,0 +1,57 @@
+{
+  "id": 1,
+  "slug": "airtel-axis",
+  "bank": "axis",
+  "network": "Visa",
+  "category": "cashback",
+  "status": "active",
+  "annualFee": 500,
+  "joiningFee": 500,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [
+      { "category": "Airtel bill", "rate": 25, "cap": 250, "notes": "Airtel mobile, broadband, DTH" },
+      { "category": "Online spends", "rate": 10, "cap": 500 },
+      { "category": "All spends", "rate": 1, "notes": "Uncapped base rate" }
+    ],
+    "loungeAccess": {
+      "domesticVisitsPerQuarter": 1,
+      "internationalVisitsPerQuarter": 0
+    },
+    "fuelBenefit": {
+      "surchargeWaiverPercent": 1,
+      "capInr": 400
+    }
+  },
+  "history": [
+    {
+      "attribute": "Airtel Cashback Cap",
+      "oldValue": "₹250/month uncapped rate",
+      "newValue": "25% capped at ₹250/month",
+      "effectiveDate": "2026-04-12",
+      "source": {
+        "name": "Axis Bank",
+        "document": "Terms & Conditions",
+        "page": 4
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No, it carries a ₹500 annual fee, waived if you spend above the bank's specified threshold in the prior year.",
+    "Does it support UPI?": "Yes, it can be linked to UPI apps for payments."
+  },
+  "faqOverrides": [
+    {
+      "question": "Does the Airtel cashback apply to Airtel Payments Bank?",
+      "answer": "No, the cashback applies to Airtel mobile, broadband, and DTH bill payments only."
+    }
+  ],
+  "calculator": {
+    "categories": [
+      { "label": "Airtel bill", "matchesCashbackCategory": "Airtel bill", "defaultSpendInr": 1000 },
+      { "label": "Online shopping", "matchesCashbackCategory": "Online spends", "defaultSpendInr": 5000 },
+      { "label": "Other spends", "matchesCashbackCategory": "All spends", "defaultSpendInr": 15000 }
+    ]
+  }
+}

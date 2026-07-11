@@ -1,0 +1,40 @@
+{
+  "id": 2,
+  "slug": "sbi-cashback",
+  "bank": "sbi",
+  "network": "Visa",
+  "category": "cashback",
+  "status": "active",
+  "annualFee": 999,
+  "joiningFee": 999,
+  "lifetimeFree": false,
+  "lastVerified": "2026-07-11",
+  "currentBenefits": {
+    "cashback": [
+      { "category": "Online spends", "rate": 5, "cap": 2000, "notes": "Excludes categories restricted by SBI" },
+      { "category": "Offline spends", "rate": 1, "cap": 2000 }
+    ]
+  },
+  "history": [
+    {
+      "attribute": "Online Cashback Cap",
+      "oldValue": "Uncapped",
+      "newValue": "Capped at ₹2,000/statement cycle",
+      "effectiveDate": "2026-01-15",
+      "source": {
+        "name": "SBI Card",
+        "document": "Notices",
+        "page": 1
+      }
+    }
+  ],
+  "faqTemplateAnswers": {
+    "Is this card lifetime free?": "No, ₹999 + GST annually, waived on spends above the bank's specified threshold."
+  },
+  "calculator": {
+    "categories": [
+      { "label": "Online shopping", "matchesCashbackCategory": "Online spends", "defaultSpendInr": 20000 },
+      { "label": "Offline spends", "matchesCashbackCategory": "Offline spends", "defaultSpendInr": 10000 }
+    ]
+  }
+}
