@@ -48,10 +48,10 @@ export default function CardChangesPage({ params }: { params: { slug: string } }
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <header>
-        <h1 className="text-2xl font-bold capitalize text-gray-900">
+        <h1 className="text-2xl font-extrabold capitalize text-brand-900 sm:text-3xl">
           {card.slug.replace(/-/g, " ")} — Benefit Change History
         </h1>
-        <p className="text-sm text-gray-500">
+        <p className="mt-1 text-sm text-gray-500">
           {bank?.name ?? card.bank} · Last verified {card.lastVerified}
         </p>
       </header>
@@ -63,7 +63,7 @@ export default function CardChangesPage({ params }: { params: { slug: string } }
       )}
 
       <p className="text-sm">
-        <Link href={routes.card(card.slug)} className="text-brand hover:underline">
+        <Link href={routes.card(card.slug)} className="font-medium text-brand-600 hover:text-brand-700 hover:underline">
           View full card details, current benefits, and spend calculator →
         </Link>
       </p>

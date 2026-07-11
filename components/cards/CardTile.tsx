@@ -13,22 +13,23 @@ export function CardTile({ card }: { card: CreditCard }) {
   return (
     <Link
       href={routes.card(card.slug)}
-      className="block rounded-lg border border-gray-200 p-4 transition hover:border-brand hover:shadow-sm"
+      className="group block rounded-2xl border border-brand-100 bg-white p-5 shadow-card transition-all duration-200 hover:-translate-y-0.5 hover:border-brand-300 hover:shadow-card-hover"
     >
       <div className="flex items-center justify-between gap-2">
-        <span className="text-sm text-gray-500">{bank?.name ?? card.bank}</span>
+        <span className="text-sm font-medium text-brand-600">{bank?.name ?? card.bank}</span>
         <NetworkBadge network={card.network} />
       </div>
-      <h3 className="mt-1 text-base font-semibold capitalize text-gray-900">
+      <h3 className="mt-2 text-base font-bold capitalize text-gray-900 transition-colors group-hover:text-brand-700">
         {card.slug.replace(/-/g, " ")}
       </h3>
       {headline && (
         <p className="mt-1 text-sm text-gray-600">
-          {headline.rate}% cashback on {headline.category.toLowerCase()}
+          <span className="font-semibold text-accent-600">{headline.rate}% cashback</span> on{" "}
+          {headline.category.toLowerCase()}
         </p>
       )}
-      <div className="mt-3 flex items-center justify-between">
-        <span className="text-xs text-gray-500">
+      <div className="mt-4 flex items-center justify-between border-t border-gray-100 pt-3">
+        <span className="text-xs font-medium text-gray-500">
           {card.lifetimeFree ? "Lifetime free" : `${formatInr(card.annualFee)}/year`}
         </span>
         <StatusBadge status={card.status} />

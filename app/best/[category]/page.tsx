@@ -20,7 +20,7 @@ export default function CategoryPage({ params }: { params: { category: string } 
 
   return (
     <div>
-      <h1 className="text-2xl font-bold text-gray-900">{category.label}</h1>
+      <h1 className="text-2xl font-extrabold text-brand-900 sm:text-3xl">{category.label}</h1>
       <p className="mt-1 text-sm text-gray-600">{category.description}</p>
       {cards.length === 0 ? (
         <p className="mt-4 text-sm text-gray-500">No cards in this category are tracked yet.</p>

@@ -8,7 +8,7 @@ export const CHANGE_COLORS = {
 };
 
 export const STATUS_COLORS: Record<string, string> = {
-  active: "bg-green-100 text-green-800",
-  discontinued: "bg-gray-200 text-gray-600",
-  invite_only: "bg-amber-100 text-amber-800",
+  active: "bg-emerald-50 text-emerald-700 ring-1 ring-inset ring-emerald-200",
+  discontinued: "bg-gray-100 text-gray-600 ring-1 ring-inset ring-gray-200",
+  invite_only: "bg-accent-50 text-accent-700 ring-1 ring-inset ring-accent-100",
 };

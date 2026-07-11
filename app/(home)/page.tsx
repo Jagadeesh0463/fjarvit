@@ -14,18 +14,30 @@ export default function HomePage() {
     .slice(0, 5);
 
   return (
-    <div className="space-y-12">
-      <section>
-        <h1 className="text-3xl font-bold text-gray-900">Know before your card changes</h1>
-        <p className="mt-2 max-w-xl text-gray-600">
+    <div className="space-y-16">
+      <section className="overflow-hidden rounded-3xl bg-gradient-to-br from-brand-700 via-brand-600 to-brand-800 px-6 py-14 sm:px-10 sm:py-16">
+        <span className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-accent-300">
+          {cards.length} cards tracked
+        </span>
+        <h1 className="mt-4 max-w-2xl text-3xl font-extrabold leading-tight text-cream sm:text-4xl">
+          Know before your card changes
+        </h1>
+        <p className="mt-4 max-w-xl text-brand-100">
           Track cashback, reward, and lounge benefit changes on Indian credit cards — with real
           before/after numbers, not just headlines.
         </p>
+        <Link
+          href={routes.cards()}
+          className="mt-7 inline-flex items-center rounded-full bg-accent-500 px-5 py-2.5 text-sm font-semibold text-brand-900 shadow-card transition-colors hover:bg-accent-400"
+        >
+          Browse all cards →
+        </Link>
       </section>
 
       <section>
-        <h2 className="text-lg font-semibold text-gray-900">Featured cards</h2>
-        <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2">
+        <h2 className="text-xs font-semibold uppercase tracking-wide text-brand-500">Featured</h2>
+        <p className="mt-1 text-lg font-bold text-gray-900">Popular cards worth a look</p>
+        <div className="mt-5 grid grid-cols-1 gap-4 sm:grid-cols-2">
           {featured.map((card) => (
             <CardTile key={card.slug} card={card} />
           ))}
@@ -33,19 +45,24 @@ export default function HomePage() {
       </section>
 
       <section>
-        <h2 className="text-lg font-semibold text-gray-900">Latest credit card changes</h2>
-        <ul className="mt-4 divide-y divide-gray-100">
+        <h2 className="text-xs font-semibold uppercase tracking-wide text-brand-500">Tracking</h2>
+        <p className="mt-1 text-lg font-bold text-gray-900">Latest credit card changes</p>
+        <div className="mt-5 space-y-3">
           {recentChanges.map(({ card, entry }, i) => (
-            <li key={i} className="py-3">
-              <Link href={routes.change(card.slug)} className="text-sm font-medium text-brand hover:underline">
+            <Link
+              key={i}
+              href={routes.change(card.slug)}
+              className="block rounded-2xl border border-brand-100 bg-white p-4 shadow-card transition-colors hover:border-brand-300"
+            >
+              <p className="text-sm font-semibold capitalize text-brand-700">
                 {card.slug.replace(/-/g, " ")}
-              </Link>
-              <p className="text-sm text-gray-600">
+              </p>
+              <p className="mt-0.5 text-sm text-gray-600">
                 {entry.attribute} — {entry.effectiveDate}
               </p>
-            </li>
+            </Link>
           ))}
-        </ul>
+        </div>
       </section>
     </div>
   );

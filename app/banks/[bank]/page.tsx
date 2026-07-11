@@ -23,7 +23,7 @@ export default function BankPage({ params }: { params: { bank: string } }) {
 
   return (
     <div>
-      <h1 className="text-2xl font-bold text-gray-900">{bank.name} Credit Cards</h1>
+      <h1 className="text-2xl font-extrabold text-brand-900 sm:text-3xl">{bank.name} Credit Cards</h1>
       {cards.length === 0 ? (
         <p className="mt-4 text-sm text-gray-500">No cards from {bank.name} are tracked yet.</p>
       ) : (

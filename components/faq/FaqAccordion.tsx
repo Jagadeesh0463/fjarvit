@@ -25,17 +25,25 @@ export function FaqAccordion({ templateAnswers = {}, overrides = [] }: Props) {
   if (items.length === 0) return null;
 
   return (
-    <div className="divide-y divide-gray-200 border-t border-b border-gray-200">
+    <div className="divide-y divide-brand-100 overflow-hidden rounded-2xl border border-brand-100 bg-white shadow-card">
       {items.map((item, i) => (
         <div key={i}>
           <button
-            className="flex w-full items-center justify-between py-3 text-left text-sm font-medium text-gray-900"
+            className="flex w-full items-center justify-between px-4 py-3.5 text-left text-sm font-semibold text-gray-900 transition-colors hover:bg-brand-50/50"
             onClick={() => setOpenIndex(openIndex === i ? null : i)}
           >
             {item.question}
-            <span className="ml-2 text-gray-400">{openIndex === i ? "−" : "+"}</span>
+            <span
+              className={`ml-3 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-brand-50 text-brand-600 transition-transform duration-200 ${
+                openIndex === i ? "rotate-45" : ""
+              }`}
+            >
+              +
+            </span>
           </button>
-          {openIndex === i && <p className="pb-3 text-sm text-gray-600">{item.answer}</p>}
+          {openIndex === i && (
+            <p className="px-4 pb-4 text-sm leading-relaxed text-gray-600">{item.answer}</p>
+          )}
         </div>
       ))}
     </div>

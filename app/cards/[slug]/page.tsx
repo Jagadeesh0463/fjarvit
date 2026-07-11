@@ -70,37 +70,37 @@ export default function CardDetailPage({ params }: { params: { slug: string } })
           <NetworkBadge network={card.network} />
           <StatusBadge status={card.status} />
         </div>
-        <h1 className="mt-2 text-2xl font-bold capitalize text-gray-900">
+        <h1 className="mt-3 text-2xl font-extrabold capitalize text-brand-900 sm:text-3xl">
           {card.slug.replace(/-/g, " ")}
         </h1>
-        <p className="text-sm text-gray-500">
+        <p className="mt-1 text-sm text-gray-500">
           {bank?.name ?? card.bank} · Last verified {card.lastVerified}
         </p>
       </header>
 
       <section>
-        <h2 className="text-lg font-semibold text-gray-900">Current Benefits</h2>
+        <h2 className="text-lg font-bold text-brand-900">Current Benefits</h2>
         <div className="mt-3">
           <BenefitTable benefits={card.currentBenefits} />
         </div>
       </section>
 
       <section>
-        <h2 className="text-lg font-semibold text-gray-900">Spend Calculator</h2>
+        <h2 className="text-lg font-bold text-brand-900">Spend Calculator</h2>
         <div className="mt-3 max-w-md">
           <SpendCalculator card={card} />
         </div>
       </section>
 
       <section>
-        <h2 className="text-lg font-semibold text-gray-900">Change History</h2>
+        <h2 className="text-lg font-bold text-brand-900">Change History</h2>
         <div className="mt-3">
           <ChangeTimeline history={card.history} />
         </div>
       </section>
 
       <section>
-        <h2 className="text-lg font-semibold text-gray-900">Frequently Asked Questions</h2>
+        <h2 className="text-lg font-bold text-brand-900">Frequently Asked Questions</h2>
         <div className="mt-3">
           <FaqAccordion templateAnswers={card.faqTemplateAnswers} overrides={card.faqOverrides} />
         </div>
@@ -108,7 +108,7 @@ export default function CardDetailPage({ params }: { params: { slug: string } })
 
       {related.length > 0 && (
         <section>
-          <h2 className="text-lg font-semibold text-gray-900">Related Cards</h2>
+          <h2 className="text-lg font-bold text-brand-900">Related Cards</h2>
           <div className="mt-3 grid grid-cols-1 gap-4 sm:grid-cols-2">
             {related.map((r) => (
               <CardTile key={r.slug} card={r} />

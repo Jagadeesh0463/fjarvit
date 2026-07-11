@@ -14,24 +14,31 @@ export default function ChangesPage() {
 
   return (
     <div>
-      <h1 className="text-2xl font-bold text-gray-900">Recent Changes</h1>
-      <ul className="mt-6 divide-y divide-gray-100">
+      <h1 className="text-2xl font-extrabold text-brand-900 sm:text-3xl">Recent Changes</h1>
+      <p className="mt-1 text-sm text-gray-600">
+        {changes.length} recorded changes across all tracked cards.
+      </p>
+      <div className="mt-6 space-y-3">
         {changes.map(({ card, entry }, i) => (
-          <li key={i} className="py-4">
-            <Link href={routes.change(card.slug)} className="text-sm font-medium text-brand hover:underline">
+          <Link
+            key={i}
+            href={routes.change(card.slug)}
+            className="block rounded-2xl border border-brand-100 bg-white p-4 shadow-card transition-colors hover:border-brand-300"
+          >
+            <p className="text-sm font-semibold capitalize text-brand-700">
               {card.slug.replace(/-/g, " ")}
-            </Link>
-            <p className="text-sm text-gray-900">{entry.attribute}</p>
+            </p>
+            <p className="mt-0.5 text-sm text-gray-900">{entry.attribute}</p>
             <p className="text-sm text-gray-600">
               <span className="text-change-down line-through">{entry.oldValue}</span> →{" "}
-              <span className="text-change-up">{entry.newValue}</span>
+              <span className="font-medium text-change-up">{entry.newValue}</span>
             </p>
-            <p className="text-xs text-gray-400">
+            <p className="mt-1 text-xs text-gray-400">
               {entry.effectiveDate} · Source: {entry.source.name}
             </p>
-          </li>
+          </Link>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

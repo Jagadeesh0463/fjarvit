@@ -42,7 +42,7 @@ export default function ComparePage({ params }: { params: { pair: string } }) {
 
   return (
     <div>
-      <h1 className="text-2xl font-bold capitalize text-gray-900">
+      <h1 className="text-2xl font-extrabold capitalize text-brand-900 sm:text-3xl">
         {cardA.slug.replace(/-/g, " ")} vs {cardB.slug.replace(/-/g, " ")}
       </h1>
       <div className="mt-6">
