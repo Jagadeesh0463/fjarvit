@@ -11,6 +11,10 @@
 - Full schema.org coverage (FAQ, Breadcrumb, Article, WebSite,
   Organization), an Alert Banner for discontinued/invite-only cards, and a
   per-card `/changes/[slug]` changelog page.
+- Automated daily source monitoring (`scripts/monitor-sources.mjs`) —
+  flags when a cited source changes, for human review. See
+  [source-monitoring.md](./source-monitoring.md) for exactly what this
+  does and doesn't do.
 
 ## Known gaps
 
@@ -32,10 +36,13 @@
   formula (see [scoring-methodology.md](./scoring-methodology.md)); ship
   ratings, Change Score, and comparison "Winner" together, not separately;
   command-palette search; a "Most Impactful Changes" homepage module.
-- **Phase 2** — Live backend: admin panel, database, scrapers, AI-assisted
-  summaries, diff detection, email alerts. This is where the data access
-  layer isolation in `lib/content/getCards.ts` pays off — see
-  [architecture.md](./architecture.md).
+- **Phase 2** — Live backend: admin panel, database, AI-assisted
+  summaries, email alerts. Source *monitoring* now exists (see above), but
+  it stops at flagging a human — it does not scrape structured data or
+  auto-update cards. Turning a flagged change into an automatic,
+  accurate JSON update is real Phase 2 scope, not something to bolt onto
+  the monitor script. This is where the data access layer isolation in
+  `lib/content/getCards.ts` pays off — see [architecture.md](./architecture.md).
 - **Phase 3** — User accounts, saved cards, push notifications, a
   personalized dashboard, mobile app, browser extension.
 

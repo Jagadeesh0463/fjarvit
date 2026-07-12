@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "monitor:sources": "node scripts/monitor-sources.mjs"
   },
   "dependencies": {
     "next": "^14.2.0",
@@ -25,6 +26,8 @@
     "postcss": "^8.4.38",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
-    "eslint-config-next": "^14.2.0"
+    "eslint-config-next": "^14.2.0",
+    "pdf-parse": "^1.1.1",
+    "playwright": "^1.47.0"
   }
 }

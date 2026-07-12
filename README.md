@@ -34,6 +34,10 @@ https://fjarvit.vercel.app
   overrides
 - Full schema.org structured data (FAQ, Breadcrumb, Article, WebSite,
   Organization) for search visibility
+- Automated daily monitoring of every cited source (PDF or webpage,
+  including JS-rendered bank pages) that flags — but never
+  auto-applies — a detected change for manual review. See
+  [docs/source-monitoring.md](./docs/source-monitoring.md).
 
 ## Tech stack
 
@@ -62,7 +66,9 @@ app/            Routes (App Router)
 components/     Reusable UI, grouped by feature
 constants/      Banks, categories, networks, fees, colors, routes
 content/cards/  Static card data (JSON), one file per card
+data/           Source-monitoring baseline (data/source-snapshots.json)
 lib/            Data access, calculator math, SEO/schema builders
+scripts/        Source-monitoring script (see docs/source-monitoring.md)
 types/          Canonical TypeScript data contract
 ```
 

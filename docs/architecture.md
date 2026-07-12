@@ -53,3 +53,13 @@ Every page ships title, description, and Open Graph tags via its own
 `generateMetadata()` — not as a separate pass at the end. Structured data
 (schema.org JSON-LD) covers FAQ, Breadcrumb, Article, WebSite, and
 Organization types, built in `lib/seo/buildMetadata.ts`.
+
+## Source monitoring
+
+`scripts/monitor-sources.mjs`, run daily by
+`.github/workflows/monitor-sources.yml`, is a separate subsystem from the
+Next.js app — it never runs at request time or build time, only on a
+GitHub Actions schedule. It rechecks every cited source URL and flags
+changes for human review; it does not write to `content/cards/`. Full
+detail, including what it deliberately does not do, in
+[source-monitoring.md](./source-monitoring.md).

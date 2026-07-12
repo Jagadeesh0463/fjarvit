@@ -5,3 +5,8 @@ out/
 .DS_Store
 *.tsbuildinfo
 next-env.d.ts
+
+# Transient per-run output from scripts/monitor-sources.mjs — the
+# persistent baseline (data/source-snapshots.json) IS committed, this
+# per-run summary is not.
+data/monitor-result.json

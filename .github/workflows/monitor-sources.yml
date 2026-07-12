@@ -1,0 +1,90 @@
+name: Monitor sources
+
+# Rechecks every source URL cited in content/cards/*.json for changes.
+# Does NOT touch card data automatically — on a detected change it opens
+# (or updates) a GitHub Issue so a human reviews and manually edits the
+# curated JSON. See docs/source-monitoring.md.
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily, 06:00 UTC
+  workflow_dispatch: {} # allows manual "Run workflow" from the Actions tab
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium + system dependencies
+        run: npx playwright install --with-deps chromium
+
+      - name: Run source monitor
+        run: npm run monitor:sources
+
+      - name: Commit updated snapshot baseline
+        run: |
+          if ! git diff --quiet -- data/source-snapshots.json; then
+            git config user.name "fjarvit-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add data/source-snapshots.json
+            git commit -m "chore: update source-snapshots baseline [skip ci]"
+            git push
+          else
+            echo "No snapshot changes to commit."
+          fi
+
+      - name: Ensure the source-change label exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create source-change --color FBCA04 \
+            --description "Automated source monitor detected a change" || true
+
+      - name: Open or update review issue if sources changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          CHANGED_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('data/monitor-result.json')).changed.length)")
+          if [ "$CHANGED_COUNT" = "0" ]; then
+            echo "No source changes detected."
+            exit 0
+          fi
+
+          BODY=$(node -e "
+            const r = JSON.parse(require('fs').readFileSync('data/monitor-result.json'));
+            let out = 'Automated source monitor detected ' + r.changed.length + ' changed source(s) as of ' + r.checkedAt + '.\n\n';
+            out += 'This does not mean the site card data is wrong yet — it means the cited source page/PDF changed and needs a human to check what changed and update content/cards/*.json if needed.\n\n';
+            for (const c of r.changed) {
+              for (const ref of c.refs) {
+                out += '- **' + ref.cardSlug + '**: \"' + ref.attribute + '\" cites ' + ref.sourceName + '\n  ' + c.url + '\n';
+              }
+            }
+            if (r.failed.length > 0) {
+              out += '\n---\n\n' + r.failed.length + ' source(s) could not be checked this run (site may block bots, or the link may be stale):\n\n';
+              for (const f of r.failed) {
+                out += '- ' + f.url + ': ' + f.error + '\n';
+              }
+            }
+            console.log(out);
+          ")
+
+          EXISTING=$(gh issue list --label source-change --state open --json number --jq '.[0].number')
+
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --body "$BODY"
+          else
+            gh issue create --title "Source changes detected — review needed" --label source-change --body "$BODY"
+          fi
