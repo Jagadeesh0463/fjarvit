@@ -1,0 +1,44 @@
+{
+  "slug": "student",
+  "title": "Student",
+  "summary": "As a student, a credit card can be a useful tool to start building a credit history early and to handle occasional emergencies, but it comes with real risk if you don't have a steady, independent way to repay what you spend.",
+  "shouldYouGetOne": "It depends on your situation, not just your age. If you have some regular income (a part-time job, stipend, or freelance work) and can commit to paying your bill in full every month, a student or entry-level card can be a good way to start building credit history before you graduate. But if you have no independent income and would be relying on parents or unpredictable pocket money to repay, it is safer to wait, or to use an add-on card on a parent's account where they retain control and visibility over spending. A credit card is not free money — it is a loan you take every time you swipe, and someone has to repay it on time.",
+  "benefits": [
+    "Starts your credit history early, which can help you qualify for loans (education, car, home) later in life",
+    "Useful for handling genuine emergencies without needing cash on hand",
+    "Some student cards offer cashback or rewards on everyday spends like food delivery, shopping, and travel",
+    "Helps you learn how billing cycles, due dates, and statements work while the stakes are relatively low"
+  ],
+  "risks": [
+    "No independent income means no reliable way to pay off what you spend, which can quickly lead to debt",
+    "Overspending is easy when a credit limit feels like available money rather than borrowed money",
+    "Missed or late payments can damage your credit score right at the start of your credit history, which follows you for years",
+    "Interest rates on unpaid balances are high (often 3-4% per month), so small unpaid amounts can grow fast",
+    "It can be tempting to fund a lifestyle you can't actually afford, especially with peer pressure around spending"
+  ],
+  "cardCategoryRecommendations": [
+    {
+      "category": "student",
+      "reason": "These cards are specifically designed to be accessible to students and first-time cardholders, often with lower income requirements and simpler eligibility."
+    },
+    {
+      "category": "lifetime-free",
+      "reason": "A card with no annual fee, ever, means there's no ongoing cost to worry about while you're still learning how to manage credit responsibly."
+    }
+  ],
+  "whenToAvoid": "Avoid getting a credit card in your own name if you have no stable, independent source of income to repay your bill. Relying entirely on someone else to fund your repayments each month is risky for both your credit score and your relationship with that person. An add-on card, prepaid card, or simply a debit card may be a better fit until you have income of your own.",
+  "faqs": [
+    {
+      "question": "Can I get a credit card in college with no income?",
+      "answer": "Some banks offer student cards against a fixed deposit (a type of secured card) or as an add-on card linked to a parent's account, which does not require you to show independent income. A regular unsecured credit card usually requires some proof of income."
+    },
+    {
+      "question": "Will having a student credit card affect my credit score?",
+      "answer": "Yes — both positively and negatively. Paying on time and keeping your usage low builds a good credit history. Missing payments or maxing out your limit can hurt your score, sometimes significantly, even at a young age."
+    },
+    {
+      "question": "Is an add-on card a good alternative to my own credit card?",
+      "answer": "It can be. An add-on card lets you spend using a parent's credit line while they see the transactions and remain responsible for repayment, which adds a layer of oversight while you're still learning to manage a budget."
+    }
+  ]
+}

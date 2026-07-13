@@ -1,0 +1,32 @@
+{
+  "slug": "emi-conversion",
+  "term": "EMI Conversion",
+  "category": "Costs & Charges",
+  "depth": "standard",
+  "shortDefinition": "Turning a large purchase or an outstanding balance into fixed monthly installments, usually with added interest or a processing fee unless it's a genuine no-cost offer.",
+  "definition": "EMI conversion lets you break down a large credit card purchase, or sometimes an existing outstanding balance, into fixed monthly payments (Equated Monthly Installments) over a chosen period, like 3, 6, or 12 months. Banks usually charge interest on this, plus sometimes a processing fee, unless the purchase qualifies for a special 'no-cost EMI' offer.",
+  "whyItMatters": "EMI conversion can make a large expense feel manageable, but it's still a form of borrowing, and most EMI plans are not free. Understanding the real cost, including any interest and processing fees, is important before converting a purchase, since what looks like an easy monthly payment can add up to meaningfully more than the original price.",
+  "realLifeExamples": [
+    "A ₹60,000 laptop converted into a 6-month EMI plan at a typical interest rate might mean paying back a total that is a few thousand rupees more than ₹60,000, once interest and any processing fee are included.",
+    "A cardholder converts a ₹30,000 purchase into a 'no-cost EMI' plan advertised by the retailer, and ends up paying exactly ₹5,000 a month for 6 months with no extra interest — because the cost was already adjusted into the deal, not because the bank waived interest for free."
+  ],
+  "commonMistakes": [
+    "Assuming 'no-cost EMI' always means genuinely zero extra cost — often the interest is quietly built into the product's price rather than being waived, so the discounted or cash price may have been lower.",
+    "Converting too many purchases into EMIs at once, which can make monthly outflows harder to track and reduce available credit for emergencies."
+  ],
+  "tips": [
+    "Before choosing EMI, compare the total amount you'll repay against the item's cash price to see if there's a real difference.",
+    "Reserve EMI conversion for genuinely large, planned expenses rather than routine purchases, since each EMI plan adds a fixed monthly commitment."
+  ],
+  "faqs": [
+    {
+      "question": "Does converting to EMI affect my credit score?",
+      "answer": "It can indirectly, since the outstanding EMI amount is typically counted against your credit limit and utilization, and missing an EMI installment is treated like missing a payment."
+    },
+    {
+      "question": "Can I convert any purchase to EMI at any time?",
+      "answer": "Not always. Many banks only allow EMI conversion within a certain window after the purchase and above a minimum transaction amount, and not every purchase or merchant is eligible, so it's worth checking your bank's specific terms."
+    }
+  ],
+  "relatedTerms": ["interest-charges", "minimum-due"]
+}

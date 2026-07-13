@@ -1,0 +1,23 @@
+{
+  "slug": "due-date",
+  "term": "Due Date",
+  "category": "Billing & Payments",
+  "depth": "standard",
+  "shortDefinition": "The deadline to pay your credit card bill, usually 18-21 days after your statement date, to avoid interest and late fees.",
+  "definition": "The due date is the last day you can pay your credit card bill without being charged interest or a late payment fee. It's set by the bank and typically falls 18 to 21 days after your statement date, giving you a window to review your bill and arrange payment. Paying the full 'total due' amount by this date keeps your account interest-free. Paying only the 'minimum due' avoids a late fee but still triggers interest on the remaining balance. Missing the due date entirely usually means both a late fee and interest charges.",
+  "whyItMatters": "The due date is the single most important date on your credit card statement. Paying late — even by a day — can cost you a late fee, interest charges, and in some cases a dent to your credit score if the bank reports it. It's the deadline that determines whether using a credit card cost you nothing or cost you real money.",
+  "realLifeExamples": [
+    "Your statement shows ₹12,000 total due with a due date of the 25th. If you pay ₹12,000 by the 25th, you owe nothing extra. If you pay only ₹1,200 (a typical minimum due) or miss the date, the bank starts charging interest on the unpaid balance, plus possibly a late fee."
+  ],
+  "commonMistakes": [
+    "Waiting until the due date itself to initiate payment — bank transfers or UPI payments can occasionally take a day to reflect, causing an accidental late payment."
+  ],
+  "tips": [
+    "Set up auto-pay for at least the minimum due as a safety net, and still aim to pay the full amount manually before the due date."
+  ],
+  "faqs": [
+    { "question": "What exactly happens if I miss my due date?", "answer": "You'll typically be charged a late payment fee plus interest on your outstanding balance, calculated from the transaction dates. Repeated missed payments can also lower your credit score." },
+    { "question": "Is there any grace period after the due date?", "answer": "Generally no — most Indian banks apply late fees and interest starting the day after the due date, though a very small number may offer a day or two of buffer. Don't rely on this." }
+  ],
+  "relatedTerms": ["statement-date", "billing-cycle", "total-due", "minimum-due", "grace-period"]
+}

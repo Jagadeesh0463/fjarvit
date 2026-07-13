@@ -1,0 +1,45 @@
+{
+  "slug": "salaried-employee",
+  "title": "Salaried Employee",
+  "summary": "With a stable monthly income, a salaried employee is often in one of the easier positions to manage a credit card responsibly — you know roughly what's coming in and can plan repayment around your salary date.",
+  "shouldYouGetOne": "For most salaried employees with a predictable income, a credit card can be a reasonable and useful financial tool, provided you treat it as a payment convenience rather than extra income. The key is matching your spending to what you can comfortably repay from your salary each month, not to your card's credit limit. If you already struggle to save or frequently run short before month-end, a credit card can make that problem worse rather than better, since it makes it easy to spend money you don't yet have.",
+  "benefits": [
+    "A steady monthly income makes it easier to plan and stick to full, on-time repayments",
+    "Good opportunity to build a strong credit history, which helps with future loans like a home loan or car loan",
+    "Cashback and reward programs can add real value on routine, planned spending like groceries, utility bills, and fuel",
+    "Useful for cash flow smoothing between salary dates, without turning into long-term debt if paid off in full",
+    "Purchase protection and easy EMI conversion can help manage larger planned expenses"
+  ],
+  "risks": [
+    "Lifestyle inflation — spending more simply because the credit limit allows it, not because it fits your budget",
+    "Relying on minimum due payments can trap you in a cycle of high-interest debt that eats into future salaries",
+    "Multiple cards can make it easy to lose track of total outstanding debt across accounts",
+    "Missed payments affect your credit score, which can matter later for major loans like a mortgage",
+    "Cash withdrawals on a credit card carry high fees and interest from day one, unlike regular purchases"
+  ],
+  "cardCategoryRecommendations": [
+    {
+      "category": "cashback",
+      "reason": "Salaried employees with predictable, recurring monthly expenses (groceries, bills, fuel) can get consistent value from cashback on everyday spending."
+    },
+    {
+      "category": "lifetime-free",
+      "reason": "A no-annual-fee card is a low-risk way to start building credit history without an ongoing cost, especially if you're getting your first card."
+    },
+    {
+      "category": "upi",
+      "reason": "Cards designed for UPI-linked spending fit naturally into how most salaried employees already pay for daily expenses in India."
+    }
+  ],
+  "whenToAvoid": "If your monthly expenses already regularly exceed your salary, or you find yourself relying on loans or borrowing to get through the month, adding a credit card is likely to add stress rather than convenience. Address the underlying budget gap first.",
+  "faqs": [
+    {
+      "question": "How much of my salary should I spend using a credit card?",
+      "answer": "There's no fixed rule, but a common approach is to only put spending on a credit card that you could pay for in cash if needed, and to keep your total credit utilization (balance versus limit) under roughly 30% for a healthier credit profile."
+    },
+    {
+      "question": "Should I get a credit card through my employer or bank salary account?",
+      "answer": "Banks often pre-approve salaried employees for cards linked to their salary account, which can mean simpler eligibility. It's still worth comparing the fees, interest rate, and benefits rather than accepting the first offer."
+    }
+  ]
+}

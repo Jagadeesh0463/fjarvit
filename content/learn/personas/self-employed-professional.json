@@ -1,0 +1,44 @@
+{
+  "slug": "self-employed-professional",
+  "title": "Self-Employed Professional",
+  "summary": "Freelancers, consultants, and other self-employed professionals often deal with irregular income, which makes a credit card genuinely useful for smoothing cash flow — but also riskier, since a slow month can turn a manageable bill into a debt problem.",
+  "shouldYouGetOne": "A credit card can help bridge the gap between when you incur business or personal expenses and when client payments actually arrive, which is a real and common problem for self-employed professionals. That said, this same irregular income is exactly what makes repayment risky: a card bill is due on a fixed date every month regardless of whether your clients have paid you. If your income varies a lot month to month, only take on a credit limit you could repay even during your worst recent month, not your average or best month.",
+  "benefits": [
+    "Helps smooth cash flow gaps between paying for expenses and receiving client payments",
+    "Building a credit history can be valuable since self-employed professionals sometimes face more scrutiny getting loans without salary slips",
+    "Cashback or rewards on recurring business-related spends like software subscriptions, travel, or office supplies can add up",
+    "A grace/interest-free period (typically 20-50 days) can effectively give you short-term breathing room on expenses, if paid off before the due date"
+  ],
+  "risks": [
+    "Irregular income means a bill due date can arrive before a client payment does, creating pressure to pay late or only pay the minimum",
+    "Approval can be harder without salary slips — some professionals over-rely on one card once approved, concentrating risk",
+    "It's easy to blur business and personal expenses on one card, making it harder to track true profitability and harder to plan repayment",
+    "Using a credit card to cover a income shortfall repeatedly (rather than occasionally) is a sign of a cash flow problem the card is masking, not solving",
+    "High interest charges during a slow income month can compound quickly and be difficult to recover from"
+  ],
+  "cardCategoryRecommendations": [
+    {
+      "category": "cashback",
+      "reason": "Recurring business expenses like subscriptions, utilities, and supplies can generate steady cashback value for a self-employed professional."
+    },
+    {
+      "category": "lifetime-free",
+      "reason": "With income that can vary, avoiding a fixed annual fee removes one predictable cost, keeping the card cheaper to hold in lean months."
+    }
+  ],
+  "whenToAvoid": "If your income is highly unpredictable and you don't yet have any buffer or emergency fund, be cautious about relying on a credit card as your main cash flow tool — a bad month can turn into compounding high-interest debt. Consider building even a small buffer before leaning on credit.",
+  "faqs": [
+    {
+      "question": "Is it harder for self-employed professionals to get a credit card in India?",
+      "answer": "It can be, since many banks primarily assess salaried applicants using salary slips. Self-employed applicants are often assessed using income tax returns, bank statements, or business proof, and may need a longer track record to get approved."
+    },
+    {
+      "question": "Should I use one card for both business and personal expenses?",
+      "answer": "It's generally better to keep them separate, even informally, so you can track how much you're actually spending on your business versus personal life. This also makes tax filing and expense tracking much simpler."
+    },
+    {
+      "question": "What if a client payment is delayed and I can't pay my credit card bill in full?",
+      "answer": "Paying at least the minimum due avoids a late payment being reported, but you'll still be charged high interest on the remaining balance. It's better to pay as much as you can afford and treat it as a short-term, expensive loan you need to clear as soon as the payment arrives — not to let it roll over repeatedly."
+    }
+  ]
+}

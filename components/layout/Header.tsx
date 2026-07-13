@@ -14,11 +14,17 @@ export function Header() {
           </span>
           Fjarvit
         </Link>
-        <nav className="flex items-center gap-6 text-sm font-medium text-brand-700/80">
+        <nav className="flex items-center gap-5 text-sm font-medium text-brand-700/80 sm:gap-6">
           <Link href={routes.cards()} className="transition-colors hover:text-accent-600">
             Cards
           </Link>
-          <Link href="/changes" className="transition-colors hover:text-accent-600">
+          <Link href={routes.learn()} className="transition-colors hover:text-accent-600">
+            Learn
+          </Link>
+          <Link href={routes.tools()} className="transition-colors hover:text-accent-600">
+            Tools
+          </Link>
+          <Link href="/changes" className="hidden transition-colors hover:text-accent-600 sm:inline">
             Recent Changes
           </Link>
         </nav>

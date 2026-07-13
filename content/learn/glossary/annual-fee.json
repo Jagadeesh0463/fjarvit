@@ -1,0 +1,17 @@
+{
+  "slug": "annual-fee",
+  "term": "Annual Fee",
+  "category": "Costs & Charges",
+  "depth": "standard",
+  "shortDefinition": "A yearly charge some credit cards levy simply for holding the card, often waived if you spend above a certain amount during the year.",
+  "definition": "An Annual Fee is a recurring yearly charge that some credit card issuers add to your statement for keeping the card active, regardless of how much you use it. It's usually billed once a year, either on the card's issue anniversary or at a fixed time set by the bank. Not every card has one — many are 'lifetime free', meaning no annual fee is ever charged.",
+  "whyItMatters": "The annual fee is a real, guaranteed cost of owning a card, separate from any interest you might pay. It's important to compare a card's benefits (rewards, cashback, lounge access) against its annual fee to see if the card is actually worth it for your spending pattern. A card with a high annual fee only makes sense if you use its perks enough to offset that cost.",
+  "realLifeExamples": ["A card with a ₹1,000 + GST annual fee might waive it automatically if you spend ₹1,00,000 or more on the card in the previous year — so a person spending ₹9,000/month would comfortably cross that and pay nothing extra."],
+  "commonMistakes": ["Not checking whether the annual fee is waived on spending and then being surprised when it appears on the statement despite low card usage."],
+  "tips": ["Before applying, check the exact annual fee, whether it's waived on spending, and how many years of fee-free use lifetime-free cards genuinely offer."],
+  "faqs": [
+    { "question": "Is an annual fee the same as a joining fee?", "answer": "No. A joining fee is a one-time charge when the card is first issued, while an annual fee is charged every year the card stays active." },
+    { "question": "Can I get an annual fee reversed if I don't use the card much?", "answer": "Some banks may waive it as a one-time goodwill gesture if you call customer care, but this isn't guaranteed — it depends on the issuer's policy and your relationship with the bank." }
+  ],
+  "relatedTerms": ["joining-fee", "credit-card-vs-debit-card"]
+}

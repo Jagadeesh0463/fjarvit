@@ -1,0 +1,17 @@
+{
+  "slug": "reward-points",
+  "term": "Reward Points",
+  "category": "Rewards & Perks",
+  "depth": "standard",
+  "shortDefinition": "Points you earn for every ₹ you spend on a credit card, which can later be redeemed for vouchers, products, air miles, or statement credit.",
+  "definition": "Reward Points are a loyalty currency credit card issuers give you based on your spending — typically a fixed number of points for every ₹100 or ₹150 spent, sometimes at higher rates for specific categories like dining or travel. These points sit in your card account and can usually be redeemed through the bank's rewards catalogue for things like gift vouchers, merchandise, flight miles, or occasionally as a credit against your bill.",
+  "whyItMatters": "The value of a reward point isn't fixed — redeeming points for statement credit or certain products can be worth far less than redeeming the same points for, say, an airline transfer partner. Points can also expire after a set period (often 2-3 years), so unused points can quietly become worthless. It's important not to let the pursuit of points influence you to spend more than you would have otherwise, since interest on an unpaid bill will almost always cost more than the points are worth.",
+  "realLifeExamples": ["Earning 4 points per ₹100 spent on a ₹20,000 monthly bill gives 800 points; redeemed for a catalogue voucher those might be worth around ₹400-₹600, but the same points transferred to an airline partner could sometimes be worth more or less depending on the redemption rate."],
+  "commonMistakes": ["Spending extra just to 'earn more points' and then carrying a balance — the interest charged on that balance is typically far higher than the value of the points earned."],
+  "tips": ["Check your card's points expiry policy and redeem periodically instead of letting a large balance build up and lapse."],
+  "faqs": [
+    { "question": "Do reward points expire?", "answer": "Many cards expire points after 2-3 years of earning them, though policies vary by issuer, so it's worth checking your card's specific terms." },
+    { "question": "Are reward points the same as cashback?", "answer": "No. Cashback is usually a direct percentage of spend credited as cash or statement credit, while reward points are a separate currency whose real-world value depends on how you redeem them." }
+  ],
+  "relatedTerms": ["cashback", "lounge-access"]
+}

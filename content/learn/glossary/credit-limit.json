@@ -1,0 +1,32 @@
+{
+  "slug": "credit-limit",
+  "term": "Credit Limit",
+  "category": "Credit & Limits",
+  "depth": "standard",
+  "shortDefinition": "The maximum amount a bank allows you to borrow and spend on a credit card at any given time.",
+  "definition": "Credit limit is the ceiling amount your bank sets for how much you can charge to your credit card, including purchases, EMI conversions, and cash withdrawals combined. It's decided by the bank based on factors like your income, credit history, existing debts, and repayment behavior, and it can be increased or decreased over time as your profile changes.",
+  "whyItMatters": "Your credit limit isn't extra income or a bonus — it's borrowed money that has to be repaid, usually with interest if not paid in full. Spending close to your limit regularly can also hurt your credit score, since it pushes up your credit utilization ratio, and it leaves you with little room for emergencies or unexpected expenses.",
+  "realLifeExamples": [
+    "A salaried employee with a ₹1,00,000 credit limit spends ₹90,000 in a month on rent, shopping, and bills. Even if they plan to pay it off, being that close to the limit can flag them as a higher-risk borrower to future lenders.",
+    "A first-time cardholder is given a starting limit of ₹25,000, which the bank gradually raises to ₹75,000 over two years as they consistently pay their bills on time."
+  ],
+  "commonMistakes": [
+    "Treating the credit limit as 'available money' to spend freely rather than a borrowing cap that must be repaid.",
+    "Not realizing that maxing out the limit, even temporarily, can lower your credit score and reduce your chances of getting future loans or limit increases."
+  ],
+  "tips": [
+    "Try to use only a small portion of your credit limit at any time — this keeps your credit utilization low and protects your credit score.",
+    "If your bank offers a limit increase, remember it's a tool for flexibility and emergencies, not a signal to spend more each month."
+  ],
+  "faqs": [
+    {
+      "question": "Can my credit limit change without me asking?",
+      "answer": "Yes. Banks can raise or lower your limit based on your repayment history, income updates, or overall risk assessment. Some banks notify you before a decrease, but it's worth checking your statement regularly."
+    },
+    {
+      "question": "Does a higher credit limit mean I'm doing well financially?",
+      "answer": "Not necessarily. A higher limit reflects the bank's confidence in your ability to repay, but it doesn't mean you should use more of it. Financial health is better measured by how little of your limit you actually need to use."
+    }
+  ],
+  "relatedTerms": ["available-credit", "credit-utilization-ratio", "credit-score-cibil"]
+}

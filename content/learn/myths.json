@@ -1,0 +1,37 @@
+[
+  {
+    "statement": "A credit card is free money.",
+    "verdict": "false",
+    "explanation": "A credit card is a loan from the bank, not extra income. Every rupee spent has to be repaid, and if it isn't paid in full, it accrues interest — often 3-4% per month."
+  },
+  {
+    "statement": "Paying the minimum due each month is enough to avoid trouble.",
+    "verdict": "false",
+    "explanation": "Paying only the minimum due avoids a late fee, but interest still accrues on nearly the full unpaid balance. Debt can grow substantially even while 'staying current' on minimum payments."
+  },
+  {
+    "statement": "Having more credit cards always hurts your credit score.",
+    "verdict": "partly-true",
+    "explanation": "More cards can lower your score temporarily due to hard inquiries when applying, and can hurt it if it leads to missed payments or high utilization. But responsibly managed, multiple cards can also lower your overall utilization ratio and help your score."
+  },
+  {
+    "statement": "Closing a credit card always improves your credit score.",
+    "verdict": "false",
+    "explanation": "Closing a card reduces your total available credit limit, which can raise your utilization ratio on remaining cards, and it can shorten your average credit history length — both of which can lower your score, not improve it."
+  },
+  {
+    "statement": "Reward points and cashback are always worth chasing.",
+    "verdict": "false",
+    "explanation": "Rewards are only a genuine benefit if you were already going to spend that money and you pay your bill in full. Spending more just to earn rewards, or carrying interest to 'make the rewards worth it,' almost always costs more than the reward is worth."
+  },
+  {
+    "statement": "Carrying a small balance instead of paying in full helps your credit score.",
+    "verdict": "false",
+    "explanation": "This is a widespread myth. Credit bureaus don't reward you for carrying a balance — paying in full and on time is what builds a strong score. Carrying a balance only costs you interest."
+  },
+  {
+    "statement": "No-cost EMI is truly free.",
+    "verdict": "partly-true",
+    "explanation": "No-cost EMI usually waives explicit interest, but the cost is frequently built into the product's price upfront, or a processing fee is charged separately — it's rarely purely 'free' financing."
+  }
+]

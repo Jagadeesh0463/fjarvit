@@ -1,0 +1,23 @@
+{
+  "slug": "credit-card-vs-debit-card",
+  "term": "Credit Card vs Debit Card",
+  "category": "The Basics",
+  "depth": "standard",
+  "shortDefinition": "A debit card spends money you already have in your bank account instantly; a credit card spends the bank's money, which you repay later.",
+  "definition": "A debit card is linked directly to your savings or current account. When you swipe it or pay online, the money leaves your account immediately — you can only spend what's actually there. A credit card works differently: the bank extends you a line of credit up to an approved limit, and every purchase is money the bank pays on your behalf. You don't touch your own bank balance at all. Instead, the bank tracks what you owe and asks you to repay it by a due date each month, either in full or, if needed, partially with interest.",
+  "whyItMatters": "The difference matters because a credit card carries risks and benefits a debit card doesn't. With a debit card, you can never spend money you don't have, so there's no debt risk — but you also don't build any credit history. A credit card can help build your credit score if used responsibly and often comes with rewards, but it also makes it easy to spend more than you can afford, since the limit can feel like available money even when it isn't.",
+  "realLifeExamples": [
+    "You buy a ₹3,000 pair of shoes. With a debit card, ₹3,000 leaves your bank account that instant. With a credit card, your bank balance stays untouched, but you now owe the credit card company ₹3,000, due at your next bill."
+  ],
+  "commonMistakes": [
+    "Treating a credit card's spending limit the same way as a debit card balance — as money that's 'yours' to use freely, rather than borrowed money that must be repaid."
+  ],
+  "tips": [
+    "If you're new to credit cards, try spending only what you'd be comfortable paying with a debit card, then pay off the credit card bill in full — this builds credit history without any real risk of debt."
+  ],
+  "faqs": [
+    { "question": "Which one is safer for a beginner?", "answer": "A debit card carries no debt risk since you can only spend what you have. A credit card can be equally safe if you always pay the full bill on time, but it requires more discipline since overspending is easier." },
+    { "question": "Does a debit card help build my credit score?", "answer": "No. Credit scores are built from how you borrow and repay credit, such as credit cards and loans. Debit card usage isn't reported to credit bureaus at all." }
+  ],
+  "relatedTerms": ["what-is-a-credit-card", "how-does-a-credit-card-work", "credit-utilization-ratio"]
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "high-interest-debt-trap",
+    "title": "High Interest Charges Snowballing Into a Debt Trap",
+    "whatCanGoWrong": "Credit card interest in India typically runs 3-4% per month (roughly 36-48% a year) — far higher than most loans. If you carry a balance instead of paying in full, interest compounds on top of new spending, and the debt can grow faster than you can pay it down.",
+    "realLifeExample": "Someone carries a ₹50,000 balance and pays only the minimum due each month while continuing to spend. Even with no new purchases, at ~40% annual interest that balance can balloon past ₹70,000 within a year if only minimums are paid.",
+    "howToAvoid": "Pay the Total Due in full every single month. If you can't, treat it as an emergency and prioritize clearing it before any discretionary spending, not as a normal way to use the card."
+  },
+  {
+    "slug": "minimum-due-trap",
+    "title": "Believing the Minimum Due Is 'Enough'",
+    "whatCanGoWrong": "Paying only the minimum due avoids a late fee but not interest — interest is charged on nearly the entire unpaid balance, not just the amount above the minimum. Many people mistake 'no late fee' for 'no cost.'",
+    "realLifeExample": "A ₹30,000 bill with a ₹1,500 minimum due paid on time still accrues interest on roughly the full ₹30,000 from the transaction date, often adding a few thousand rupees in interest within a couple of months.",
+    "howToAvoid": "Use minimum due only as a genuine last resort, never as a routine payment plan. See the Minimum Due and Interest Charges guides."
+  },
+  {
+    "slug": "late-payment-fees",
+    "title": "Late Payment Fees",
+    "whatCanGoWrong": "Missing the due date entirely — even by a day — usually triggers a flat late payment fee on top of interest, and can be reported to credit bureaus if it happens repeatedly.",
+    "realLifeExample": "A missed due date on a ₹10,000 bill can add a late fee (often ₹500-₹1,300 depending on the outstanding amount) plus ongoing interest, and a pattern of late payments can visibly drag down a credit score.",
+    "howToAvoid": "Set up auto-pay for at least the total due, or calendar reminders a few days before the due date, so a payment is never simply forgotten."
+  },
+  {
+    "slug": "overspending-beyond-means",
+    "title": "Overspending Because It Doesn't Feel Like Spending Money",
+    "whatCanGoWrong": "Because no cash physically leaves your hand, credit cards can make it psychologically easy to spend more than you would with cash or a debit card, especially when a high credit limit is available.",
+    "realLifeExample": "Someone with a ₹2,00,000 limit and a ₹40,000 monthly income spends up to ₹80,000 in a month because 'the limit allows it,' then struggles to repay it from a salary that can't cover it.",
+    "howToAvoid": "Decide your personal spending limit based on your income and repayment ability, not the bank's credit limit — the two are not the same thing."
+  },
+  {
+    "slug": "debt-accumulation",
+    "title": "Debt Accumulating Across Multiple Cards",
+    "whatCanGoWrong": "When someone holds several cards and struggles with one, it's common to use another card's limit to cover the shortfall, which spreads and compounds debt across multiple high-interest balances at once.",
+    "realLifeExample": "A person uses Card B to pay part of Card A's bill when short on cash, then Card A's remaining balance keeps accruing interest too — total debt grows even though it feels like 'juggling,' not borrowing.",
+    "howToAvoid": "Track total outstanding balance across all cards, not just one at a time, and treat any card-to-card shuffling as a warning sign that spending has outpaced income."
+  },
+  {
+    "slug": "cash-withdrawal-costs",
+    "title": "Cash Withdrawals Being Deceptively Expensive",
+    "whatCanGoWrong": "Withdrawing cash on a credit card usually has no grace period at all — interest starts accruing from the moment of withdrawal — plus a separate cash advance fee, making it one of the costliest things you can do with a credit card.",
+    "realLifeExample": "Withdrawing ₹10,000 in cash can immediately add a 2-3% cash advance fee (₹200-₹300) plus daily-compounding interest from day one, even if the bill is later paid on time.",
+    "howToAvoid": "Avoid credit card cash withdrawals except in genuine emergencies, and repay them as fast as possible given there's no interest-free window."
+  },
+  {
+    "slug": "credit-score-damage",
+    "title": "Damaging Your Credit Score",
+    "whatCanGoWrong": "Missed payments, high credit utilization, and frequent new card applications all lower your credit score, which can make it harder or more expensive to get loans (home, car, personal) in the future.",
+    "realLifeExample": "Someone consistently running 80-90% utilization across their cards, even while paying on time, often sees a lower score than someone using 10-20%, purely because of the utilization signal.",
+    "howToAvoid": "Pay on time every time, keep utilization under roughly 30%, and space out new card applications rather than applying for several at once."
+  },
+  {
+    "slug": "too-many-cards-too-fast",
+    "title": "Getting Too Many Cards Too Quickly",
+    "whatCanGoWrong": "Applying for several credit cards in a short window generates multiple 'hard inquiries' on your credit report, which can temporarily lower your score, and managing many due dates and limits increases the chance of missing one.",
+    "realLifeExample": "Someone applies for four cards within two months to chase different sign-up offers, sees a dip in their credit score from the inquiries, and later misses a due date simply because they lost track of which bill was due when.",
+    "howToAvoid": "Add cards deliberately and space applications out, only taking on a new card when there's a clear, ongoing reason for it."
+  },
+  {
+    "slug": "hidden-fees-and-charges",
+    "title": "Hidden or Overlooked Fees",
+    "whatCanGoWrong": "Beyond interest, cards can carry annual fees, joining fees, foreign transaction/forex markup fees, over-limit fees, EMI processing fees, and reward redemption fees — easy to miss if you don't read the terms.",
+    "realLifeExample": "Someone converts a purchase to 'no-cost EMI' without realizing a processing fee was added upfront, or uses a card abroad and finds a 3.5% forex markup added to every transaction.",
+    "howToAvoid": "Read the fee schedule (Most Important Terms & Conditions document) before applying, and check for fees before using an unfamiliar feature like EMI conversion or foreign transactions."
+  },
+  {
+    "slug": "fraud-and-scams",
+    "title": "Fraud, Skimming, and Phishing Scams",
+    "whatCanGoWrong": "Credit card details can be stolen through phishing calls/SMS pretending to be your bank, card skimming devices, or compromised websites, leading to unauthorized transactions on your card.",
+    "realLifeExample": "A caller claiming to be from the bank asks for an OTP to 'verify' the card and uses it to authorize a fraudulent transaction — banks never need your OTP over a call.",
+    "howToAvoid": "Never share your card number, CVV, or OTP with anyone claiming to call from the bank, enable transaction alerts, and report suspicious transactions to your bank immediately."
+  }
+]

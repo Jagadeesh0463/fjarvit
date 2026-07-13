@@ -1,0 +1,45 @@
+{
+  "slug": "frequent-traveler",
+  "title": "Frequent Traveler",
+  "summary": "Travel-focused credit cards can offer genuine value through lounge access, lower forex markup, and air miles or points — but that value only materializes if you actually travel often enough to use it, otherwise the annual fee can outweigh the perks.",
+  "shouldYouGetOne": "This is one of the clearer cases where the right answer depends heavily on your actual travel frequency, not just your interest in travel. If you fly several times a year (for work or personal travel) and regularly spend on flights, hotels, or international transactions, a travel card's fee can be easily justified by the savings and perks. If you travel rarely, a general cashback or lifetime-free card will likely serve you better, since you'd be paying an annual fee for benefits you rarely use.",
+  "benefits": [
+    "Airport lounge access can meaningfully improve the experience of frequent flying, especially on long layovers",
+    "Lower forex markup on international transactions can save a noticeable amount compared to cards with high foreign transaction fees",
+    "Air miles, hotel points, or travel-specific rewards can accumulate into real savings on future trips if you fly often",
+    "Travel insurance or purchase protection bundled with some travel cards can reduce the need for separate policies",
+    "Priority services (check-in, boarding) on some co-branded cards can save time for frequent flyers"
+  ],
+  "risks": [
+    "Annual fees on travel cards are often higher than average — if you don't travel enough, you may not recoup the cost through perks",
+    "Reward points and miles can expire or lose value if unused, effectively wasting money spent chasing them",
+    "It's easy to overspend chasing a travel reward threshold or lounge visit that isn't worth the extra spending",
+    "Some travel benefits require meeting minimum spend conditions that can quietly encourage spending beyond your normal budget",
+    "Complex terms (blackout dates, transfer ratios, capacity limits at lounges) can make it hard to realize the value you expected"
+  ],
+  "cardCategoryRecommendations": [
+    {
+      "category": "travel",
+      "reason": "These cards are built specifically around travel spending, offering the strongest and most direct value for frequent travelers."
+    },
+    {
+      "category": "lounge",
+      "reason": "If airport lounge access is your primary interest, cards focused on this benefit can be more directly useful than general travel cards with broader but shallower perks."
+    }
+  ],
+  "whenToAvoid": "If you travel only occasionally (say, once a year or less), a premium travel card's annual fee is unlikely to be worth it — you're better off with a lower-fee or lifetime-free card and simply comparing forex rates or booking platforms for the trips you do take.",
+  "faqs": [
+    {
+      "question": "How often do I need to travel to make a travel credit card worth it?",
+      "answer": "There's no universal number, but as a rough guide, if you take multiple flights a year or spend meaningfully in foreign currency, the savings on forex markup and lounge access alone can often justify a moderate annual fee. For occasional travelers, the math is less favorable."
+    },
+    {
+      "question": "Do travel credit cards offer better forex rates than debit cards?",
+      "answer": "Often yes — many travel credit cards have a lower foreign currency markup (sometimes under 2%) compared to standard debit cards (which can charge 3.5% or more), but this varies by card, so it's worth checking the specific markup before travelling."
+    },
+    {
+      "question": "What happens to my air miles or points if I stop using the card?",
+      "answer": "Most reward points and miles have an expiry period, and some programs void unused points if the card is closed. It's worth checking the specific program's expiry and redemption rules so you don't lose value you've already earned."
+    }
+  ]
+}

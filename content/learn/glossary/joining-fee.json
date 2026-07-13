@@ -1,0 +1,17 @@
+{
+  "slug": "joining-fee",
+  "term": "Joining Fee",
+  "category": "Costs & Charges",
+  "depth": "standard",
+  "shortDefinition": "A one-time fee some banks charge when a new credit card is issued to you, separate from any yearly annual fee.",
+  "definition": "A Joining Fee is a one-time charge billed when you're first issued a credit card, meant to cover the cost of onboarding you as a cardholder. It is different from the Annual Fee, which is a recurring yearly charge. Some cards have both, some have only an annual fee, and many 'lifetime free' cards have neither.",
+  "whyItMatters": "Because the joining fee is charged upfront, it affects the true cost of getting a card from day one — even before you've had a chance to use its benefits. Banks sometimes run promotions waiving the joining fee to attract new customers, so it's worth checking current terms rather than assuming a fee applies.",
+  "realLifeExamples": ["A card advertised with a ₹500 + GST joining fee might be offered fee-free for a limited period as part of a sign-up promotion, so the same card could cost ₹0 upfront depending on when and how you apply."],
+  "commonMistakes": ["Assuming the joining fee and annual fee are the same thing, and being confused when a fee appears again the following year."],
+  "tips": ["Always read the fee schedule in the card's terms and conditions before applying, since joining fee waivers are often promotional and time-limited."],
+  "faqs": [
+    { "question": "Is the joining fee refundable if I close the card soon after?", "answer": "Generally no — it's charged for issuing the card and is usually non-refundable, though policies vary by issuer." },
+    { "question": "Do all credit cards have a joining fee?", "answer": "No. Many cards, especially entry-level or promotional ones, are issued with no joining fee at all." }
+  ],
+  "relatedTerms": ["annual-fee", "credit-card-vs-debit-card"]
+}

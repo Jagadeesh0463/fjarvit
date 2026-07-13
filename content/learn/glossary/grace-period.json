@@ -1,0 +1,23 @@
+{
+  "slug": "grace-period",
+  "term": "Grace Period",
+  "category": "Billing & Payments",
+  "depth": "standard",
+  "shortDefinition": "The interest-free window between making a purchase and your due date — but only if you paid your previous bill in full.",
+  "definition": "The grace period is the stretch of time, often 20 to 50 days depending on when in the billing cycle you spend, during which you can use your credit card without paying any interest, as long as you clear your bill by the due date. This is one of the biggest advantages of a credit card over other forms of borrowing. However, the grace period only exists if you paid your entire previous statement's total due in full. The moment you carry forward even a small unpaid balance, the grace period disappears — the bank starts charging interest from the transaction date on all new purchases too, not just the leftover amount.",
+  "whyItMatters": "The grace period is what makes a credit card 'free' credit if used well, but it's conditional, and many people don't realize how easily it's lost. Once you miss a full payment even once, every new purchase starts accruing interest immediately, turning what felt like a free convenience into an expensive one.",
+  "realLifeExamples": [
+    "You pay your ₹10,000 bill in full every month, so you enjoy interest-free spending. One month you pay only ₹4,000 of a ₹10,000 bill. Not only does the remaining ₹6,000 accrue interest, but every new purchase you make that month also starts earning interest from day one — no grace period applies until you pay a full statement balance again."
+  ],
+  "commonMistakes": [
+    "Assuming the grace period is a fixed, guaranteed benefit rather than something that depends entirely on paying the previous bill in full."
+  ],
+  "tips": [
+    "If you can't pay the full amount one month, know that you're temporarily losing the grace period — try to get back to paying in full as soon as possible to restore it."
+  ],
+  "faqs": [
+    { "question": "Does the grace period apply to cash withdrawals on a credit card?", "answer": "No. Cash withdrawals (cash advances) typically start accruing interest immediately from the withdrawal date, with no grace period at all, regardless of your payment history." },
+    { "question": "How long is a typical grace period?", "answer": "It varies with when you spend in your billing cycle, but it commonly ranges from around 20 days (for purchases near the end of a cycle) up to about 50 days (for purchases right after a new cycle begins)." }
+  ],
+  "relatedTerms": ["billing-cycle", "due-date", "total-due", "minimum-due"]
+}

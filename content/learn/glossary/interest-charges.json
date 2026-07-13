@@ -1,0 +1,32 @@
+{
+  "slug": "interest-charges",
+  "term": "Interest Charges",
+  "category": "Costs & Charges",
+  "depth": "standard",
+  "shortDefinition": "The extra amount you're charged when you don't pay your Total Due in full by the due date — often one of the costliest forms of borrowing available.",
+  "definition": "Interest charges are what a bank adds on top of your outstanding balance when you don't clear your bill in full by the due date. Credit card interest rates in India are typically high, often working out to around 3-4% per month, which is roughly 36-48% annualized — this is a common industry range rather than one fixed rate, so it's worth checking your specific card's terms.",
+  "whyItMatters": "Credit card interest is one of the most expensive forms of borrowing available to individuals, far higher than most personal loans. Once you carry a balance forward, many cards also stop giving you the usual interest-free period on new purchases, meaning fresh spending can start accruing interest immediately instead of the standard grace window.",
+  "realLifeExamples": [
+    "Someone with a ₹40,000 outstanding balance who pays nothing beyond the minimum due for a few months can end up paying several thousand rupees in interest, on top of the original amount, before the balance is cleared.",
+    "A cardholder who always pays in full misses one due date and carries forward ₹15,000. At roughly 3.5% monthly interest, that alone adds around ₹525 in interest for that one cycle, and the meter keeps running on any unpaid part until it's fully cleared."
+  ],
+  "commonMistakes": [
+    "Assuming interest is only charged on the specific purchase left unpaid, when in reality it can apply to the whole outstanding balance and sometimes new transactions too.",
+    "Not realizing that carrying even a small balance forward can remove the interest-free grace period on all new spending for the next cycle."
+  ],
+  "tips": [
+    "Always aim to pay your Total Due in full by the due date to avoid interest entirely — this is the single best way to use a credit card for free.",
+    "If you can't pay in full, pay as much as possible above the minimum due, since interest is calculated on the outstanding balance."
+  ],
+  "faqs": [
+    {
+      "question": "Is credit card interest the same across all banks?",
+      "answer": "No. Rates vary by bank and card type, though most fall in a broadly similar range of high monthly rates. Always check your card's specific terms rather than assuming a single rate applies everywhere."
+    },
+    {
+      "question": "Can I avoid interest charges completely?",
+      "answer": "Yes — if you pay your Total Due in full by the due date every cycle, most Indian credit cards charge no interest at all on regular purchases. Interest only kicks in when a balance is carried forward, or in cases like cash withdrawals which typically have no grace period."
+    }
+  ],
+  "relatedTerms": ["grace-period", "minimum-due", "total-due", "cash-withdrawal"]
+}

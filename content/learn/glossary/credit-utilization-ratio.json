@@ -1,0 +1,39 @@
+{
+  "slug": "credit-utilization-ratio",
+  "term": "Credit Utilization Ratio",
+  "category": "Credit & Limits",
+  "depth": "flagship",
+  "shortDefinition": "How much of your total credit limit you're currently using, expressed as a percentage — one of the biggest factors in your credit score.",
+  "definition": "Credit utilization ratio is the percentage of your total available credit that you're currently using. If you have a credit limit of ₹1,00,000 across all your cards and your combined outstanding balance is ₹30,000, your utilization is 30%. It's calculated both per card and across all your cards combined, and lenders look at both. This number is recalculated every time your statement is generated, based on your balance on that date — it isn't a lifetime average.",
+  "whyItMatters": "Credit utilization is one of the most heavily weighted factors in your credit score (alongside payment history). It signals to lenders how reliant you are on borrowed money relative to what you're allowed to borrow. Two people with identical incomes and identical on-time payment records can have meaningfully different credit scores purely because one consistently uses 10% of their limit and the other uses 80%, even if both pay their bills in full every month.",
+  "realLifeExamples": [
+    "A person with a ₹2,00,000 total credit limit who typically owes ₹20,000 at statement time has a 10% utilization — generally seen as healthy.",
+    "The same person has an emergency medical expense and their balance jumps to ₹1,60,000 for one billing cycle — an 80% utilization that can visibly dip their credit score even though they still pay it off in full and on time.",
+    "Someone requests a credit limit increase not to spend more, but specifically to lower their utilization ratio on the same spending — ₹20,000 owed against a ₹4,00,000 limit is 5%, versus 10% against a ₹2,00,000 limit."
+  ],
+  "commonMistakes": [
+    "Assuming utilization only matters if you don't pay your bill in full — it's calculated from your statement balance regardless of whether you go on to pay it off.",
+    "Maxing out one card for a large purchase instead of spreading it, even when total available credit across cards would keep overall utilization low.",
+    "Closing an old, unused card without realizing it lowers your total available credit and can raise your utilization ratio on your remaining cards."
+  ],
+  "tips": [
+    "A commonly cited guideline is to keep utilization under 30%, both per card and overall — lower is generally better for your score.",
+    "If a large one-time expense will spike your utilization, consider paying it down before the statement date rather than waiting for the due date.",
+    "Keeping old cards open (even with occasional small use) preserves your total available credit, which helps keep utilization low."
+  ],
+  "faqs": [
+    {
+      "question": "Does utilization reset every month?",
+      "answer": "Yes — it's based on your outstanding balance on your statement date each cycle, not a running average. It can look completely different from one month to the next depending on your spending."
+    },
+    {
+      "question": "Is 0% utilization ideal?",
+      "answer": "Not necessarily. Some scoring models actually prefer a small amount of activity over none at all, since it shows you're actively and responsibly using credit. The commonly cited healthy range is low, but not zero."
+    },
+    {
+      "question": "Does paying my bill in full every month protect me from high utilization?",
+      "answer": "It protects you from interest charges, but not from a temporarily high utilization ratio if your statement balance was high on the date it was calculated — even if you paid it off completely by the due date."
+    }
+  ],
+  "relatedTerms": ["credit-limit", "available-credit", "credit-score-cibil", "total-due"]
+}

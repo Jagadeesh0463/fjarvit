@@ -1,0 +1,23 @@
+{
+  "slug": "statement-date",
+  "term": "Statement Date",
+  "category": "Billing & Payments",
+  "depth": "standard",
+  "shortDefinition": "The fixed day each month when your bank totals up all your transactions from the billing cycle and generates your credit card bill.",
+  "definition": "Your statement date is the day, once a month, when your bank closes out your current billing cycle and produces a statement — a detailed bill listing every transaction you made during that period, the total amount you owe, the minimum amount due, and the due date by which you need to pay. The statement date stays roughly the same each month (for example, the 5th of every month), and it marks the boundary between one billing cycle ending and the next one beginning.",
+  "whyItMatters": "The statement date is not the payment deadline — that's a separate date. Confusing the two is a common beginner mistake. Knowing your statement date also helps you time large purchases: buying something right after your statement date usually gives you the longest possible interest-free period before you have to pay for it.",
+  "realLifeExamples": [
+    "If your statement date is the 5th of every month, all purchases made between June 6th and July 5th appear on the statement generated on July 5th, with a due date typically falling around July 25th."
+  ],
+  "commonMistakes": [
+    "Mistaking the statement date for the due date and paying (or worrying about paying) on the wrong day."
+  ],
+  "tips": [
+    "Check your statement as soon as it's generated to spot any unfamiliar charges early, rather than waiting until the due date is close."
+  ],
+  "faqs": [
+    { "question": "Can I change my statement date?", "answer": "Many banks allow you to request a change to your statement date, usually through customer care or the bank's app, though there may be limits on how often you can change it." },
+    { "question": "Is the statement date the same as the due date?", "answer": "No. The statement date is when your bill is generated; the due date, usually 18-21 days later, is the deadline to pay it." }
+  ],
+  "relatedTerms": ["due-date", "billing-cycle", "grace-period", "total-due"]
+}

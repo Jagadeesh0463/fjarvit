@@ -1,0 +1,32 @@
+{
+  "slug": "credit-score-cibil",
+  "term": "Credit Score (CIBIL)",
+  "category": "Credit & Limits",
+  "depth": "standard",
+  "shortDefinition": "A 3-digit number, typically ranging from 300 to 900 in India, that reflects how creditworthy you are based on your borrowing and repayment history.",
+  "definition": "A credit score is a number that summarizes how reliably you've borrowed and repaid money in the past. In India, it usually ranges from 300 to 900, and CIBIL (TransUnion CIBIL) is the most widely referenced credit bureau, though others like Experian, Equifax, and CRIF High Mark also calculate similar scores. Lenders use this score to decide whether to approve loans or credit cards, and on what terms.",
+  "whyItMatters": "Your credit score affects far more than just credit card approvals — it influences whether you get approved for home loans, car loans, and personal loans, and at what interest rate. A good score can mean lower interest rates and better terms, while a poor score can mean rejections or having to pay much more to borrow the same amount.",
+  "realLifeExamples": [
+    "A person with a CIBIL score of 780 gets approved for a personal loan at a lower interest rate, while someone with a score of 620 applying for the same loan either gets rejected or offered a higher rate.",
+    "A student who gets their first credit card and pays every bill on time for a year sees their credit score rise from having no history to a healthy score, making it easier to get a car loan later."
+  ],
+  "commonMistakes": [
+    "Assuming credit score only depends on whether you miss payments — it's also affected by high credit utilization, too many loan applications in a short time, and a short credit history.",
+    "Not checking your credit report periodically, which means errors or fraudulent accounts could be dragging your score down without your knowledge."
+  ],
+  "tips": [
+    "Pay every bill, including credit card bills, on or before the due date — payment history is usually the single biggest factor in your score.",
+    "Avoid applying for multiple credit cards or loans in a short span, since each application can cause a small, temporary dip in your score."
+  ],
+  "faqs": [
+    {
+      "question": "What is considered a good CIBIL score?",
+      "answer": "Generally, a score above 750 is considered good to excellent and improves your chances of loan approval at better rates. Scores below 650 may lead to rejections or higher interest rates, though exact cutoffs vary by lender."
+    },
+    {
+      "question": "Can I check my credit score for free?",
+      "answer": "Yes, CIBIL and other bureaus, as well as many banks and financial apps, offer free credit score checks, often once a year or even more frequently. Checking your own score this way does not hurt it."
+    }
+  ],
+  "relatedTerms": ["credit-utilization-ratio", "credit-limit"]
+}

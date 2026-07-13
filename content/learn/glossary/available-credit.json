@@ -1,0 +1,32 @@
+{
+  "slug": "available-credit",
+  "term": "Available Credit",
+  "category": "Credit & Limits",
+  "depth": "standard",
+  "shortDefinition": "The amount you can still spend on your credit card right now — your total credit limit minus what you currently owe.",
+  "definition": "Available credit is what's left of your credit limit after subtracting your current outstanding balance, including any pending transactions that haven't been billed yet. It's a live, moving number that shrinks every time you spend and grows back as you repay what you owe.",
+  "whyItMatters": "Available credit tells you how much room you actually have before hitting your limit, which matters for both everyday spending and emergencies. Watching this number, rather than only your credit limit, helps you avoid declined transactions and keeps you aware of how much of your credit you're really using at any moment.",
+  "realLifeExamples": [
+    "A cardholder has a ₹1,00,000 credit limit and has spent ₹35,000 so far this cycle. Their available credit is ₹65,000, even though their overall limit hasn't changed.",
+    "After paying off a ₹20,000 bill in full, a cardholder's available credit goes back up by that same ₹20,000, freeing up room for new spending."
+  ],
+  "commonMistakes": [
+    "Confusing available credit with credit limit and assuming you have more room to spend than you actually do.",
+    "Forgetting that pending or recently authorized transactions (like a hotel booking hold) can reduce available credit before they even appear as a full charge on your statement."
+  ],
+  "tips": [
+    "Check your available credit through your bank's app before making a large purchase to avoid a declined transaction.",
+    "Keeping a healthy gap between your available credit and your limit helps keep your credit utilization ratio low."
+  ],
+  "faqs": [
+    {
+      "question": "Why is my available credit lower than expected after I paid my bill?",
+      "answer": "This can happen if there are pending transactions, recent purchases not yet reflected, or if a payment hasn't fully processed yet. It usually updates within a day or two."
+    },
+    {
+      "question": "Does available credit affect my credit score directly?",
+      "answer": "Not on its own, but it's the flip side of your credit utilization ratio, which does affect your score. Lower available credit relative to your limit means higher utilization, which can lower your score."
+    }
+  ],
+  "relatedTerms": ["credit-limit", "credit-utilization-ratio"]
+}

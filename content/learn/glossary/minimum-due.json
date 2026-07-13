@@ -1,0 +1,39 @@
+{
+  "slug": "minimum-due",
+  "term": "Minimum Due",
+  "category": "Billing & Payments",
+  "depth": "flagship",
+  "shortDefinition": "The smallest amount you can pay by the due date to avoid a late payment fee — paying only this still costs you interest on almost everything else.",
+  "definition": "Minimum due is the lowest amount a card issuer will accept by your due date without treating the bill as unpaid. It's usually calculated as a small percentage of your total outstanding balance (commonly around 5%, though this varies by issuer) plus any interest, fees, and EMI installments due that cycle, with a fixed minimum floor amount. Paying the minimum due keeps your account in good standing and avoids a late payment fee — but it does not mean the rest of your bill is forgiven or free.",
+  "whyItMatters": "This is arguably the single most misunderstood term in credit cards, and the one most responsible for people falling into debt. Paying only the minimum due means the remaining balance carries over to the next cycle and starts accruing interest daily — and critically, most cards also lose the interest-free grace period on new purchases once a balance is carried over, meaning even brand-new purchases start accruing interest immediately instead of getting the usual 20-50 day interest-free window.",
+  "realLifeExamples": [
+    "A ₹50,000 bill with a 5% minimum due means paying just ₹2,500 keeps the account 'current' — but the remaining ₹47,500 starts accruing interest, often at 3-4% per month (roughly 36-48% annually).",
+    "Someone pays only the minimum due for six months on a ₹50,000 balance without any new spending. Depending on the interest rate, they can end up paying nearly as much in interest as the original balance before it's cleared.",
+    "A person who always pays their bill in full suddenly pays only the minimum one month due to a cash crunch — and is surprised the next month's brand-new purchases are also accruing interest, because the interest-free grace period was lost the moment a balance carried over."
+  ],
+  "commonMistakes": [
+    "Believing 'minimum due' means the rest of the bill is optional or forgiven.",
+    "Not realizing that paying only the minimum typically removes the interest-free grace period on all new spending, not just the old balance.",
+    "Making this a habit rather than a rare, one-time necessity — the interest compounds every cycle it continues."
+  ],
+  "tips": [
+    "Treat minimum due as an emergency-only fallback, not a normal way to pay your bill.",
+    "If you can't pay the full bill, pay as much above the minimum as you possibly can — every rupee above the minimum reduces the balance that interest is calculated on.",
+    "If you're regularly unable to pay in full, that's a signal to review your spending or consider an EMI conversion for a large purchase (see EMI Conversion) rather than letting it revolve at full interest."
+  ],
+  "faqs": [
+    {
+      "question": "Does paying the minimum due hurt my credit score?",
+      "answer": "Not directly — paying at least the minimum by the due date is still reported as an on-time payment. What it does hurt is your interest cost, and indirectly your credit utilization ratio, since the outstanding balance stays high."
+    },
+    {
+      "question": "Is minimum due the same on every card?",
+      "answer": "No. The percentage, the fixed floor amount, and exactly what's included (fees, EMIs, interest) vary by issuer and card. Always check your specific card's terms rather than assuming a standard figure."
+    },
+    {
+      "question": "What happens if I pay less than the minimum due?",
+      "answer": "This is typically treated as a missed payment — it can trigger a late payment fee, additional interest penalties, and can be reported to credit bureaus, which is more damaging to your credit score than paying the minimum."
+    }
+  ],
+  "relatedTerms": ["total-due", "interest-charges", "grace-period", "due-date"]
+}

@@ -11,4 +11,24 @@ export const routes = {
     return `/compare/${a}-vs-${b}`;
   },
   change: (slug: string) => `/changes/${slug}`,
+
+  // Learning Center
+  learn: () => "/learn",
+  learnTopic: (slug: string) => `/learn/${slug}`,
+  personas: () => "/learn/who-should-get-a-card",
+  persona: (slug: string) => `/learn/who-should-get-a-card/${slug}`,
+  benefits: () => "/learn/benefits",
+  risks: () => "/learn/risks",
+  responsibleUsage: () => "/learn/responsible-usage",
+  myths: () => "/learn/myths",
+  learnFaq: () => "/learn/faq",
+
+  // Tools
+  tools: () => "/tools",
+  interestCalculator: () => "/tools/interest-calculator",
+  minimumDueCalculator: () => "/tools/minimum-due-calculator",
+  cashbackCalculator: () => "/tools/cashback-calculator",
+  rewardPointsCalculator: () => "/tools/reward-points-calculator",
+  creditUtilizationCalculator: () => "/tools/credit-utilization-calculator",
+  emiCalculator: () => "/tools/emi-calculator",
 };

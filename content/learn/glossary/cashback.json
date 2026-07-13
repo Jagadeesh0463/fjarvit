@@ -1,0 +1,17 @@
+{
+  "slug": "cashback",
+  "term": "Cashback",
+  "category": "Rewards & Perks",
+  "depth": "standard",
+  "shortDefinition": "A percentage of your spending that's credited back to you, either as a reduction on your bill or as cash, usually capped per category or month.",
+  "definition": "Cashback is a reward structure where the card gives you back a percentage of what you spend — for example 1% or 5% on certain categories — either as a credit against your next statement or, less commonly, as money deposited elsewhere. Unlike reward points, cashback doesn't need to be redeemed through a catalogue; its value is usually clear and predictable since it's already expressed in rupees.",
+  "whyItMatters": "Because cashback is simpler and its rupee value is upfront, it's often easier to understand than reward points. But most cashback cards cap how much you can earn per category or per month, so the headline percentage doesn't apply to unlimited spending. As with reward points, cashback should never be a reason to spend more than you planned — any cashback earned is wiped out many times over by the interest charged if you don't pay your bill in full.",
+  "realLifeExamples": ["A card offering 5% cashback on online spending, capped at ₹500 per month, means spending ₹10,000 online gets you the full ₹500, but spending ₹20,000 still only earns ₹500 because of the cap."],
+  "commonMistakes": ["Assuming the advertised cashback percentage applies to all spending, when it's often restricted to specific categories and capped at a maximum amount."],
+  "tips": ["Check the monthly or category cap before relying on a card's cashback rate, and always pay your bill in full to actually benefit from the cashback earned."],
+  "faqs": [
+    { "question": "Is cashback credited automatically?", "answer": "Usually yes — most cards credit it automatically to your statement within a billing cycle or two, though some require you to actively redeem it." },
+    { "question": "Is cashback taxable in India?", "answer": "This is a general education site and not tax advice; cashback treatment can depend on individual circumstances, so it's best to check current rules or consult a tax professional." }
+  ],
+  "relatedTerms": ["reward-points", "minimum-due"]
+}

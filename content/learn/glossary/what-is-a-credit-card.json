@@ -1,0 +1,39 @@
+{
+  "slug": "what-is-a-credit-card",
+  "term": "What is a Credit Card?",
+  "category": "The Basics",
+  "depth": "flagship",
+  "shortDefinition": "A card that lets you borrow money from a bank, up to a set limit, to pay for things now and repay later.",
+  "definition": "A credit card is a payment card issued by a bank or financial institution that lets you borrow money, up to an approved credit limit, to pay for goods and services. Unlike a debit card, the money doesn't come out of your bank account immediately — the bank pays the merchant on your behalf, and you owe that amount back to the bank. Every purchase you make on the card adds to what you owe. Once a month, the bank totals everything into a statement and gives you a due date to pay it back.",
+  "whyItMatters": "A credit card is a loan, not a discount or a bonus, even though it's often marketed alongside cashback and reward points. Understanding that every swipe is borrowed money — not your own money — is the single most important mental shift for using one responsibly. People who treat a credit card like a debit card (spending only what they'd normally spend, and paying it off in full) tend to benefit from it. People who treat it like extra income tend to end up in debt.",
+  "realLifeExamples": [
+    "You buy a ₹15,000 phone using your credit card. The bank pays the shop immediately. You now owe the bank ₹15,000, due by your next statement's due date — interest-free if you pay the full amount by then.",
+    "You have a ₹1,00,000 credit limit but that doesn't mean you have ₹1,00,000 to spend freely — it's the maximum the bank will lend you, and every rupee of it has to be repaid.",
+    "Two people spend identically on the same card. One pays the full statement bill every month and pays ₹0 in interest. The other pays only the minimum due and ends up paying thousands in interest on the same purchases."
+  ],
+  "commonMistakes": [
+    "Treating the credit limit as 'available money' rather than a maximum loan amount.",
+    "Assuming a card is automatically a good idea just because it offers rewards, without considering whether you'll actually pay the bill in full.",
+    "Not reading what happens if a bill isn't paid in full (see Interest Charges and Minimum Due)."
+  ],
+  "tips": [
+    "Before applying, decide in advance that you'll only spend what you could pay for with your own money right now.",
+    "Set up alerts or auto-pay so you never miss a due date, even by accident.",
+    "Read the difference between 'total due' and 'minimum due' before your first bill arrives — see the Minimum Due guide."
+  ],
+  "faqs": [
+    {
+      "question": "Is a credit card the same as a loan?",
+      "answer": "Functionally, yes — it's a revolving line of credit. The difference from a typical personal loan is that you can borrow, repay, and borrow again up to your limit, and if you repay the full bill by the due date, you pay no interest at all."
+    },
+    {
+      "question": "What happens if I never use my credit card?",
+      "answer": "Most cards remain active with no cost unless they carry an annual fee — check your specific card's terms. Some issuers may reduce your credit limit or close a card after a long period of inactivity."
+    },
+    {
+      "question": "Can a credit card improve my credit score?",
+      "answer": "Yes, if used responsibly — on-time payments and low credit utilization are reported to credit bureaus and can help build a credit history. Missed payments or high utilization can hurt it just as much. See the Credit Score (CIBIL) guide."
+    }
+  ],
+  "relatedTerms": ["credit-card-vs-debit-card", "how-does-a-credit-card-work", "minimum-due", "credit-limit"]
+}

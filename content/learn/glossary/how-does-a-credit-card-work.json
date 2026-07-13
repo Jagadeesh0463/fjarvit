@@ -1,0 +1,23 @@
+{
+  "slug": "how-does-a-credit-card-work",
+  "term": "How Does a Credit Card Work?",
+  "category": "The Basics",
+  "depth": "standard",
+  "shortDefinition": "You apply, get approved for a spending limit, use the card to buy things on borrowed money, and repay the bank every month by a fixed due date.",
+  "definition": "A credit card works in a simple cycle that repeats every month. First, you apply and the bank checks your income and credit history before approving you with a credit limit — the maximum you're allowed to owe at once. Once you have the card, every purchase you make is paid by the bank on your behalf, and the amount gets added to what you owe. At the end of each billing cycle (roughly every 30 days), the bank adds up everything you spent and sends you a statement showing the total amount due and a due date, usually about 18-21 days later. If you pay the full amount by that due date, you owe no interest at all. If you pay only part of it, or nothing, the bank starts charging interest on the unpaid amount, and that interest can be high.",
+  "whyItMatters": "Understanding this cycle is what separates people who use credit cards safely from people who end up in debt trouble. The card feels like free money at the point of purchase, but it's a loan with a repayment deadline — missing that deadline or paying only the minimum is where the real cost of credit cards shows up.",
+  "realLifeExamples": [
+    "You spend ₹8,000 on groceries and a phone recharge in June. Your statement is generated on July 1st showing ₹8,000 due, with a due date of July 20th. If you pay the full ₹8,000 by July 20th, you pay ₹0 in interest."
+  ],
+  "commonMistakes": [
+    "Assuming the credit limit is money you can spend freely without consequence, rather than a borrowing ceiling you must repay."
+  ],
+  "tips": [
+    "Set a calendar reminder a few days before your due date so a payment never slips through simply because you forgot the date."
+  ],
+  "faqs": [
+    { "question": "Do I get charged interest as soon as I use the card?", "answer": "No. Most Indian credit cards give you an interest-free period from the purchase date until the due date, as long as you paid your previous bill in full. Interest only kicks in if you don't clear the full amount by the due date." },
+    { "question": "What happens if I don't pay anything at all?", "answer": "The bank charges interest on the outstanding amount, may apply a late payment fee, and if it continues, it can hurt your credit score and eventually affect your ability to get loans in the future." }
+  ],
+  "relatedTerms": ["what-is-a-credit-card", "billing-cycle", "due-date", "grace-period"]
+}

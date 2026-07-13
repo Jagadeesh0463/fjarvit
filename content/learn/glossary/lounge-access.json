@@ -1,0 +1,17 @@
+{
+  "slug": "lounge-access",
+  "term": "Airport Lounge Access",
+  "category": "Rewards & Perks",
+  "depth": "standard",
+  "shortDefinition": "A complimentary perk on some credit cards that lets you enter airport lounges a limited number of times per quarter or year, domestic and/or international.",
+  "definition": "Airport Lounge Access is a benefit offered by many premium and mid-tier credit cards that lets the cardholder enter designated airport lounges — usually for free or at a reduced fee — for a set number of visits, often per quarter or per year. Access can be limited to domestic lounges, international lounges, or both, depending on the card, and is typically activated by swiping the credit card at the lounge entry point.",
+  "whyItMatters": "Lounge access can be a genuinely useful perk for frequent travelers, but it usually isn't unconditional. Many cards require you to have spent a minimum amount on the card in the previous quarter to remain eligible for free visits in the current quarter, and add-on (supplementary) cardholders often get fewer visits or no access at all. It's easy to assume a card offers 'unlimited' lounge access when in reality the visits and eligibility conditions are quite specific.",
+  "realLifeExamples": ["A card might offer 4 complimentary domestic lounge visits per quarter, but only if you've spent at least ₹40,000 on the card in the preceding quarter — someone who spends ₹25,000 that quarter could lose access even though the card 'offers' the benefit."],
+  "commonMistakes": ["Not checking the minimum spend condition and arriving at the lounge only to find access has lapsed for that quarter."],
+  "tips": ["Check both the number of visits allowed and any spend-based eligibility condition before counting on lounge access for an upcoming trip."],
+  "faqs": [
+    { "question": "Does lounge access cover guests traveling with me?", "answer": "This varies by card — some allow a guest per visit (often at an extra charge), while others only cover the primary cardholder." },
+    { "question": "Do add-on cardholders get the same lounge access as the primary cardholder?", "answer": "Not always. Many issuers give add-on cardholders fewer visits or no lounge access at all, so it's worth checking the specific card's terms." }
+  ],
+  "relatedTerms": ["annual-fee", "reward-points"]
+}

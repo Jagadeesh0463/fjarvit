@@ -1,0 +1,34 @@
+[
+  {
+    "question": "Is a credit card good or bad?",
+    "answer": "Neither by default — it's a financial tool. Used responsibly (paid in full, on time, within your means) it can build credit history and offer real conveniences. Used carelessly, it can lead to high-interest debt. The outcome depends entirely on usage habits, not the card itself."
+  },
+  {
+    "question": "What documents do I typically need to apply for a credit card in India?",
+    "answer": "Requirements vary by issuer, but commonly include proof of identity (PAN, Aadhaar), proof of address, income proof (salary slips or ITR for self-employed applicants), and a photograph. Some issuers offer secured cards against a fixed deposit with fewer income requirements."
+  },
+  {
+    "question": "Can students get a credit card?",
+    "answer": "Yes — many banks offer student-specific cards, often with lower limits, or students can be added as an add-on cardholder on a parent's account. See the Student persona guide for a fuller picture of the benefits and risks."
+  },
+  {
+    "question": "Can self-employed or freelance individuals get a credit card?",
+    "answer": "Yes, though approval can be harder without salary slips — banks typically look at ITR filings, bank statements, or business turnover instead. See the Self-Employed Professional persona guide."
+  },
+  {
+    "question": "How many credit cards should I have?",
+    "answer": "There's no universal number — it depends on your ability to track and repay each one in full. Many people manage well with one or two cards; more only makes sense if you can reliably stay on top of every due date and balance."
+  },
+  {
+    "question": "What happens if I miss a payment?",
+    "answer": "You'll typically be charged a late payment fee and interest on the outstanding balance, and repeated missed payments can be reported to credit bureaus, lowering your credit score and making future borrowing harder or costlier."
+  },
+  {
+    "question": "Is converting a purchase to EMI always a good idea?",
+    "answer": "Not always. EMI conversion can help manage a large, planned expense, but it often includes a processing fee or interest, and can encourage spending beyond what you'd otherwise consider. Use it deliberately, not as a default for every large purchase."
+  },
+  {
+    "question": "Is cashback better than reward points?",
+    "answer": "It depends on your habits. Cashback is simpler and more predictable — the value is fixed. Reward points can sometimes be worth more if redeemed well (e.g. for flights), but their value varies a lot and unused or mismanaged points can end up worth little or expire."
+  }
+]

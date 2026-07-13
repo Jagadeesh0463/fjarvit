@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "build-credit-history",
+    "title": "Building a Credit History",
+    "description": "Every time you use a credit card and repay it, that activity is reported to credit bureaus like CIBIL, building a track record of how reliably you handle borrowed money. This history is what lenders look at when you apply for bigger loans later, like a home or car loan.",
+    "whoBenefitsMost": "First-time borrowers and young professionals who don't yet have a loan history and want to establish one before they need a larger loan.",
+    "thingsToRemember": "A credit history only helps if it's a good one — consistent late payments or high balances can hurt your score more than having no credit history at all."
+  },
+  {
+    "slug": "emergency-purchasing-power",
+    "title": "Emergency Purchasing Power",
+    "description": "A credit card gives you access to funds for genuine emergencies — a medical bill, urgent travel, or a sudden repair — without needing cash on hand or having to liquidate savings on short notice.",
+    "whoBenefitsMost": "Anyone who doesn't have a large emergency fund yet, or wants a backup option in addition to savings.",
+    "thingsToRemember": "This is meant for occasional true emergencies, not routine shortfalls. If you're regularly relying on your card to get through the month, that's a sign to review your budget, not a normal use of the card."
+  },
+  {
+    "slug": "cashback-and-rewards",
+    "title": "Cashback and Rewards",
+    "description": "Many cards return a small percentage of your spending as cashback, points, or miles, effectively giving a discount on purchases you were already planning to make.",
+    "whoBenefitsMost": "People with predictable, recurring monthly expenses (groceries, bills, fuel) who pay their balance in full and can capture rewards without paying interest.",
+    "thingsToRemember": "Rewards are only a genuine benefit if you weren't going to overspend to earn them, and if you pay off the bill in full — interest charges almost always outweigh the rewards earned."
+  },
+  {
+    "slug": "airport-lounge-access",
+    "title": "Airport Lounge Access",
+    "description": "Some cards offer complimentary or discounted access to airport lounges, providing a more comfortable space to wait during layovers or delays.",
+    "whoBenefitsMost": "Frequent flyers who travel often enough to actually use the lounge visits included with the card.",
+    "thingsToRemember": "Lounge access usually comes with visit limits and sometimes minimum spend conditions — check the fine print so you know what you're actually entitled to."
+  },
+  {
+    "slug": "emi-flexibility",
+    "title": "EMI Flexibility on Big Purchases",
+    "description": "Large purchases can sometimes be converted into fixed monthly installments (EMIs), spreading the cost over several months instead of paying it all at once.",
+    "whoBenefitsMost": "People making a planned, necessary large purchase (like an appliance) who want predictable monthly payments instead of one large outflow.",
+    "thingsToRemember": "EMI conversion often comes with processing fees and interest, even when marketed as 'no-cost' — the cost is sometimes built into the product price instead. Read the terms carefully before converting."
+  },
+  {
+    "slug": "fraud-and-purchase-protection",
+    "title": "Fraud and Purchase Protection",
+    "description": "Credit cards typically offer stronger fraud protection than cash or debit cards — unauthorized transactions can often be disputed and reversed, and many cards offer purchase protection on eligible items.",
+    "whoBenefitsMost": "Anyone making online purchases or transactions with unfamiliar merchants, where the risk of fraud or disputes is higher.",
+    "thingsToRemember": "Protection isn't automatic or unlimited — you usually need to report fraud quickly (often within days) and follow the issuer's dispute process to be covered."
+  },
+  {
+    "slug": "convenience-and-tracking",
+    "title": "Convenience and Spend Tracking",
+    "description": "Credit cards make it easy to pay without carrying cash, and every transaction is automatically recorded in your statement, making it simpler to track where your money goes.",
+    "whoBenefitsMost": "Anyone who wants a clearer, automatic record of their spending without maintaining a manual expense log.",
+    "thingsToRemember": "Convenience can cut both ways — the ease of tapping a card can make it easier to spend without noticing, so it helps to actually review your statement, not just receive it."
+  },
+  {
+    "slug": "interest-free-period",
+    "title": "Interest-Free Period",
+    "description": "Most credit cards offer a grace period (commonly 20-50 days depending on when you spend in the billing cycle) during which you can repay your balance in full with no interest charged.",
+    "whoBenefitsMost": "Disciplined spenders who consistently pay their full statement balance by the due date, effectively getting an interest-free short-term loan.",
+    "thingsToRemember": "This benefit disappears entirely, including on new purchases, the moment you carry forward any unpaid balance — most cards then charge interest from the transaction date, not just on the unpaid portion."
+  },
+  {
+    "slug": "exclusive-offers-and-discounts",
+    "title": "Exclusive Offers and Discounts",
+    "description": "Card issuers often partner with merchants to offer discounts, cashback, or deals on shopping, dining, and travel bookings exclusively for cardholders.",
+    "whoBenefitsMost": "People who were already planning a purchase and can time it to an existing offer, capturing genuine savings.",
+    "thingsToRemember": "Don't let a discount talk you into a purchase you weren't already planning to make — a 10% discount doesn't help if it convinces you to spend 100% more than you intended."
+  }
+]

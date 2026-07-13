@@ -1,0 +1,45 @@
+{
+  "slug": "business-owner",
+  "title": "Business Owner",
+  "summary": "For a business owner, a credit card can help separate business spending from personal finances and manage short-term cash flow, but mixing business debt with personal liability is a real risk worth understanding before you rely on one.",
+  "shouldYouGetOne": "If you're currently paying for business expenses out of a personal account with no clear separation, a dedicated card used only for business spending can bring real organizational benefit — cleaner books, easier expense tracking, and sometimes useful rewards on recurring costs like fuel, travel, or supplies. But most credit cards available to small business owners in India are still personal liability products: if the business can't pay, you personally are on the hook. Only take on a credit limit sized to your business's actual, verifiable cash flow, not its hoped-for growth.",
+  "benefits": [
+    "Keeping business spending on a separate card makes bookkeeping, GST input tracking, and expense reporting much easier",
+    "Can smooth short-term cash flow gaps, such as paying suppliers before customer payments arrive",
+    "Rewards or cashback on categories like fuel, travel, and vendor payments can offset real recurring business costs",
+    "A good repayment history on a business-linked card can support future business loan applications",
+    "Lounge access and travel benefits can be genuinely useful if the role involves frequent client travel"
+  ],
+  "risks": [
+    "Most cards marketed for business owners are still personally liable — business debt can become personal debt if the business struggles",
+    "It's easy to let a slow sales month turn into revolving high-interest balances that are hard to unwind",
+    "Mixing personal and business spending on one card undermines the very separation the card is meant to provide",
+    "Using a credit card to fund working capital repeatedly, rather than occasionally, is a sign of a deeper cash flow issue that a card cannot fix",
+    "Missed payments can affect your personal credit score even though the spending was for the business"
+  ],
+  "cardCategoryRecommendations": [
+    {
+      "category": "cashback",
+      "reason": "Cashback on routine, recurring business expenses (vendor payments, subscriptions, supplies) can meaningfully offset costs over a year."
+    },
+    {
+      "category": "fuel",
+      "reason": "If the business involves regular travel, deliveries, or a fleet, fuel-focused cards can reduce a recurring, unavoidable cost."
+    },
+    {
+      "category": "lounge",
+      "reason": "Frequent client meetings or business travel can make airport lounge access a practical, usable perk rather than a nice-to-have."
+    }
+  ],
+  "whenToAvoid": "Avoid relying on a personal-liability credit card to cover core, recurring business expenses if your business's cash flow doesn't reliably support repayment — this exposes your personal finances and credit score to business risk. In that situation, working capital solutions designed for businesses, or simply slowing spending, may be more appropriate than a credit card.",
+  "faqs": [
+    {
+      "question": "Is a business credit card the same as a personal one, legally?",
+      "answer": "In India, most cards marketed to small business owners and sole proprietors are still tied to the individual's personal credit profile and liability, unless issued specifically to a registered company entity. It's worth checking the specific terms before assuming the business alone is liable."
+    },
+    {
+      "question": "Can I use a business credit card to pay employee expenses?",
+      "answer": "Some issuers offer add-on cards for employees under a business account, which can help track and control team spending, but you remain responsible for the total repayment as the primary cardholder."
+    }
+  ]
+}

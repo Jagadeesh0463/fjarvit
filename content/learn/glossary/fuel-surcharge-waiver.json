@@ -1,0 +1,17 @@
+{
+  "slug": "fuel-surcharge-waiver",
+  "term": "Fuel Surcharge Waiver",
+  "category": "Rewards & Perks",
+  "depth": "standard",
+  "shortDefinition": "A waiver of the roughly 1% extra fee fuel pumps normally add when you pay by credit card, usually capped by transaction size and a monthly limit.",
+  "definition": "A Fuel Surcharge Waiver is a benefit on many credit cards that cancels out the small surcharge — typically around 1% of the transaction — that fuel stations usually add when you pay by card instead of cash. Instead of that surcharge appearing on your statement, the card issuer waives it, so you effectively pay the same price at the pump as a cash customer would.",
+  "whyItMatters": "This is a small but genuinely useful everyday perk for anyone who regularly fuels up using a credit card, since surcharges add up over time. However, the waiver usually only applies within certain limits — for example a minimum and maximum transaction amount per fill-up, and an overall cap on how much waiver you can receive in a month. Spending outside those limits means the surcharge is charged as normal.",
+  "realLifeExamples": ["A card might waive the fuel surcharge only on transactions between ₹400 and ₹5,000, with a total waiver cap of ₹100 per month — so a ₹300 top-up wouldn't qualify, and heavy fuel spenders would stop getting the waiver once they cross the monthly cap."],
+  "commonMistakes": ["Assuming the waiver applies to every fuel transaction regardless of amount, and being surprised when a very small or very large fill-up still shows a surcharge."],
+  "tips": ["Check your card's minimum transaction amount and monthly waiver cap so you know when the benefit actually applies."],
+  "faqs": [
+    { "question": "Does the fuel surcharge waiver apply at every petrol pump?", "answer": "It generally applies at fuel stations that accept card payments and process the surcharge waiver, but coverage can vary, so it's worth checking your card's terms." },
+    { "question": "Is the fuel surcharge waiver the same as cashback on fuel?", "answer": "No. A waiver simply cancels a fee you'd otherwise pay, while cashback is an additional reward credited back on top of the transaction — some cards offer one, the other, or both." }
+  ],
+  "relatedTerms": ["annual-fee", "cashback"]
+}

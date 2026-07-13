@@ -1,0 +1,23 @@
+{
+  "slug": "billing-cycle",
+  "term": "Billing Cycle",
+  "category": "Billing & Payments",
+  "depth": "standard",
+  "shortDefinition": "The roughly 30-day window between two statement dates during which all your transactions are grouped into a single bill.",
+  "definition": "A billing cycle is the period, usually about a month long, that runs from one statement date to just before the next one. Every purchase, payment, refund, or fee that happens within this window gets grouped together and shows up on the statement generated at the end of the cycle. Once a cycle closes, the bank starts a fresh one immediately — your next transactions belong to the new cycle and will appear on the following month's statement.",
+  "whyItMatters": "When you make a purchase within your billing cycle changes how long you effectively get to pay for it interest-free. A purchase made right after a new cycle starts gets almost the entire cycle plus the days until the due date before payment is required — often 45+ days. A purchase made right before the cycle closes might only give you a couple of weeks before it shows up on that statement.",
+  "realLifeExamples": [
+    "If your billing cycle runs from the 6th to the 5th of each month, a ₹5,000 purchase made on the 7th (just after the cycle starts) won't appear on a bill until the statement on the 5th of the following month, giving you close to 7 weeks before the due date — much longer than if you'd bought it on the 4th."
+  ],
+  "commonMistakes": [
+    "Not realizing that a purchase made near the end of the billing cycle gives you far less time to pay before it's due, compared to one made right at the start."
+  ],
+  "tips": [
+    "For a big planned purchase, check your billing cycle dates and buy it just after a new cycle starts to maximize your interest-free repayment window."
+  ],
+  "faqs": [
+    { "question": "Is the billing cycle always exactly 30 days?", "answer": "Not exactly — it's usually around 28 to 31 days depending on the calendar month, since it runs between fixed statement dates." },
+    { "question": "Do refunds also count within the billing cycle?", "answer": "Yes. If a refund is processed within the same cycle as the original purchase, it typically offsets that charge before the statement is generated." }
+  ],
+  "relatedTerms": ["statement-date", "due-date", "grace-period"]
+}

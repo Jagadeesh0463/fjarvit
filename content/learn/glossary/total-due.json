@@ -1,0 +1,23 @@
+{
+  "slug": "total-due",
+  "term": "Total Due",
+  "category": "Billing & Payments",
+  "depth": "standard",
+  "shortDefinition": "The full amount you owe on your statement — pay this in full by the due date to avoid all interest charges.",
+  "definition": "Total due is the complete outstanding amount shown on your credit card statement — every purchase, fee, and any previous unpaid balance, added together. It's different from 'minimum due,' which is a much smaller amount (often around 5% of the total) that the bank says is the least you must pay to avoid a late fee. Paying only the total due amount, in full, by the due date is what keeps your account interest-free. Paying anything less means the bank charges interest on the remaining balance, calculated from the transaction dates, not from the due date.",
+  "whyItMatters": "It's easy to see the small 'minimum due' figure on a statement and assume that's all that needs to be paid. In reality, paying only the minimum due avoids a late fee but not interest — and credit card interest rates in India are typically very high (often 3-4% per month), so an unpaid balance can grow quickly. Total due is the number that actually matters if your goal is to avoid paying any interest.",
+  "realLifeExamples": [
+    "Your statement shows a total due of ₹20,000 and a minimum due of ₹1,000. If you pay only the ₹1,000 minimum, you avoid a late fee, but the bank starts charging interest (often 3-4% per month) on the remaining ₹19,000, and often on new purchases too, until you pay the full total due again."
+  ],
+  "commonMistakes": [
+    "Paying only the minimum due every month, thinking it keeps the account fully in good standing, without realizing interest is quietly accumulating on the rest."
+  ],
+  "tips": [
+    "Always aim to pay the total due, not the minimum due. If that's genuinely not possible one month, pay as much above the minimum as you can to reduce the interest charged."
+  ],
+  "faqs": [
+    { "question": "Does paying the minimum due protect my credit score?", "answer": "Paying at least the minimum due on time generally keeps your account from being reported as 'delinquent,' but it doesn't protect you from interest charges, and consistently carrying a balance can still affect your credit utilization and score over time." },
+    { "question": "If I pay the total due, do I need to also pay the minimum due separately?", "answer": "No. The total due already includes everything, including what would have been the minimum due. Paying the total due in full clears your entire bill." }
+  ],
+  "relatedTerms": ["minimum-due", "due-date", "grace-period", "statement-date"]
+}

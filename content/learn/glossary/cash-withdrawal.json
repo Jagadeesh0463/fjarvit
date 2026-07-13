@@ -1,0 +1,32 @@
+{
+  "slug": "cash-withdrawal",
+  "term": "Cash Withdrawal (Cash Advance)",
+  "category": "Costs & Charges",
+  "depth": "standard",
+  "shortDefinition": "Withdrawing cash from an ATM using your credit card — one of the most expensive ways to use a card, since interest usually starts immediately with no grace period.",
+  "definition": "Cash withdrawal, also called a cash advance, is when you use your credit card to withdraw cash at an ATM instead of making a purchase. Unlike regular purchases, most Indian credit cards do not offer an interest-free grace period on cash withdrawals — interest typically starts accruing from the day of withdrawal, and a separate cash advance fee is usually charged on top.",
+  "whyItMatters": "This is generally considered one of the costliest ways to use a credit card, and it's important for beginners to understand this clearly before treating a credit card like a debit card at an ATM. Because interest starts immediately and a flat fee is added upfront, even withdrawing and repaying cash quickly can cost noticeably more than a regular purchase repaid on time.",
+  "realLifeExamples": [
+    "Someone withdraws ₹10,000 in cash using their credit card. The bank charges a cash advance fee (commonly a percentage of the amount withdrawn, often with a minimum charge), and interest starts building from that same day, even if the bill is paid before the due date.",
+    "A person withdraws ₹5,000 for an emergency and repays it within two weeks, before their statement is even generated. They're still charged interest for those two weeks plus the cash advance fee, unlike a regular purchase which would have been interest-free if paid by the due date."
+  ],
+  "commonMistakes": [
+    "Assuming cash withdrawals get the same interest-free grace period as regular purchases — they generally do not.",
+    "Treating a credit card as a backup debit card for routine cash needs, when it's meant to be used sparingly and only in genuine emergencies."
+  ],
+  "tips": [
+    "Avoid credit card cash withdrawals unless it's a genuine emergency with no other option, since the cost adds up quickly even for small amounts.",
+    "If cash is needed regularly, consider keeping an emergency fund or using a debit card instead, since credit card cash advances are rarely a cost-effective choice."
+  ],
+  "faqs": [
+    {
+      "question": "Is there a limit on how much cash I can withdraw with my credit card?",
+      "answer": "Yes, banks usually set a separate, smaller cash withdrawal limit that's a portion of your overall credit limit, rather than allowing the full credit limit to be withdrawn as cash."
+    },
+    {
+      "question": "Does a cash withdrawal affect my credit score?",
+      "answer": "It can, indirectly. It adds to your outstanding balance and utilization, and if the resulting interest and fees make repayment harder, that raises the risk of a missed payment, which does directly affect your score."
+    }
+  ],
+  "relatedTerms": ["interest-charges", "credit-limit"]
+}
