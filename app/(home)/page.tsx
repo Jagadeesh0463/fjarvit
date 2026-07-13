@@ -1,38 +1,89 @@
 import Link from "next/link";
-import { getAllCards } from "@/lib/content/getCards";
+import { getAllCards, getHomeStats } from "@/lib/content/getCards";
+import { getBankBySlug } from "@/constants/banks";
 import { CardTile } from "@/components/cards/CardTile";
+import { HomeSearch, SearchableCard } from "@/components/home/HomeSearch";
+import { StatsSection } from "@/components/home/StatsSection";
+import { WhyFjarvit } from "@/components/home/WhyFjarvit";
 import { routes } from "@/constants/routes";
+import { slugToTitle } from "@/lib/utils/format";
 
 // Deliberately simple for Phase 1A — most organic traffic lands on
 // /cards, /banks, /best, and /compare, not here. See plan v4, Section 10.
 export default function HomePage() {
   const cards = getAllCards();
+  const stats = getHomeStats();
   const featured = cards.slice(0, 4);
   const recentChanges = cards
     .flatMap((c) => c.history.map((h) => ({ card: c, entry: h })))
     .sort((a, b) => new Date(b.entry.effectiveDate).getTime() - new Date(a.entry.effectiveDate).getTime())
     .slice(0, 5);
 
+  const searchIndex: SearchableCard[] = cards.map((c) => ({
+    slug: c.slug,
+    label: slugToTitle(c.slug),
+    bankName: getBankBySlug(c.bank)?.name ?? c.bank,
+    categoryLabel: slugToTitle(c.category),
+  }));
+
+  const lastVerifiedDate = stats.lastVerified
+    ? new Date(stats.lastVerified).toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric" })
+    : "—";
+
   return (
     <div className="space-y-16">
       <section className="overflow-hidden rounded-3xl bg-gradient-to-br from-brand-700 via-brand-600 to-brand-800 px-6 py-14 sm:px-10 sm:py-16">
-        <span className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-accent-300">
-          {cards.length} cards tracked
-        </span>
-        <h1 className="mt-4 max-w-2xl text-3xl font-extrabold leading-tight text-cream sm:text-4xl">
-          Know before your card changes
-        </h1>
-        <p className="mt-4 max-w-xl text-brand-100">
-          Track cashback, reward, and lounge benefit changes on Indian credit cards — with real
-          before/after numbers, not just headlines.
-        </p>
-        <Link
-          href={routes.cards()}
-          className="mt-7 inline-flex items-center rounded-full bg-accent-500 px-5 py-2.5 text-sm font-semibold text-brand-900 shadow-card transition-colors hover:bg-accent-400"
-        >
-          Browse all cards →
-        </Link>
+        <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-[1.2fr_1fr]">
+          <div>
+            <span className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-accent-300">
+              {cards.length} cards tracked
+            </span>
+            <h1 className="mt-4 max-w-2xl text-3xl font-extrabold leading-tight text-cream sm:text-4xl">
+              Know before your card changes
+            </h1>
+            <p className="mt-4 max-w-xl text-brand-100">
+              Track cashback, reward, and lounge benefit changes on Indian credit cards — with real
+              before/after numbers, not just headlines.
+            </p>
+            <Link
+              href={routes.cards()}
+              className="mt-7 inline-flex items-center rounded-full bg-accent-500 px-5 py-2.5 text-sm font-semibold text-brand-900 shadow-card transition-colors hover:bg-accent-400"
+            >
+              Browse all cards →
+            </Link>
+          </div>
+
+          <div className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm">
+            <p className="text-xs font-semibold uppercase tracking-wide text-accent-300">Live tracking</p>
+            <div className="mt-4 grid grid-cols-2 gap-4">
+              <div>
+                <p className="text-2xl font-extrabold text-cream">{stats.cardsTracked}</p>
+                <p className="mt-0.5 text-xs text-brand-200">Cards tracked</p>
+              </div>
+              <div>
+                <p className="text-2xl font-extrabold text-cream">{stats.banksCovered}</p>
+                <p className="mt-0.5 text-xs text-brand-200">Banks covered</p>
+              </div>
+              <div>
+                <p className="text-2xl font-extrabold text-cream">{stats.changesRecorded}</p>
+                <p className="mt-0.5 text-xs text-brand-200">Changes recorded</p>
+              </div>
+              <div>
+                <p className="text-2xl font-extrabold text-cream">{lastVerifiedDate}</p>
+                <p className="mt-0.5 text-xs text-brand-200">Last verified</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
+
+      <section>
+        <HomeSearch index={searchIndex} />
+      </section>
+
+      <StatsSection stats={stats} />
+
+      <WhyFjarvit />
 
       <section>
         <h2 className="text-xs font-semibold uppercase tracking-wide text-brand-500">Featured</h2>

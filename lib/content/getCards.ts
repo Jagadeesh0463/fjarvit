@@ -35,3 +35,29 @@ export function getRelatedCards(card: CreditCard, limit = 4): CreditCard[] {
   const sameBank = all.filter((c) => c.bank === card.bank && c.category !== card.category);
   return [...sameCategory, ...sameBank].slice(0, limit);
 }
+
+export interface HomeStats {
+  cardsTracked: number;
+  banksCovered: number;
+  changesRecorded: number;
+  lastVerified: string; // ISO 8601 date — most recent lastVerified across all cards
+}
+
+// Real numbers computed from content, not hardcoded — so the homepage
+// trust indicators can't silently drift out of date as cards are added.
+export function getHomeStats(): HomeStats {
+  const cards = getAllCards();
+  const banks = new Set(cards.map((c) => c.bank));
+  const changesRecorded = cards.reduce((sum, c) => sum + c.history.length, 0);
+  const lastVerified = cards.reduce(
+    (latest, c) => (c.lastVerified > latest ? c.lastVerified : latest),
+    cards[0]?.lastVerified ?? ""
+  );
+
+  return {
+    cardsTracked: cards.length,
+    banksCovered: banks.size,
+    changesRecorded,
+    lastVerified,
+  };
+}

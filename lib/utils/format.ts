@@ -6,3 +6,14 @@
 export function formatVisits(n: number): string {
   return n >= 99 ? "Unlimited" : `${n}`;
 }
+
+// Cards are stored/displayed with kebab-case slugs (e.g. "hdfc-millennia")
+// and rendered as "Hdfc Millennia" via a CSS `capitalize` class in most
+// places. Search results render as plain text in a dropdown, so this does
+// the same transform in JS instead of relying on CSS.
+export function slugToTitle(slug: string): string {
+  return slug
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
