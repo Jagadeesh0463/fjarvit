@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { calculateRewardPoints } from "@/lib/calculators/rewardPointsCalculator";
 import { formatInr } from "@/constants/fees";
-import { Field, RupeeInput, PlainInput } from "./CalculatorInputs";
+import { Field, RupeeInput, RupeeDecimalInput, PlainInput } from "./CalculatorInputs";
 
 export function RewardPointsCalculator() {
   const [monthlySpend, setMonthlySpend] = useState(20000);
@@ -26,16 +26,7 @@ export function RewardPointsCalculator() {
           <PlainInput value={pointsPer100} onChange={setPointsPer100} suffix="pts" />
         </Field>
         <Field label="Your assumed value per point">
-          <div className="relative">
-            <span className="pointer-events-none absolute inset-y-0 left-2.5 flex items-center text-sm text-gray-400">₹</span>
-            <input
-              type="number"
-              step="0.01"
-              className="w-36 rounded-lg border border-gray-200 py-1.5 pl-6 pr-2 text-right text-sm text-gray-900 outline-none transition-colors focus:border-brand-400 focus:ring-2 focus:ring-brand-100"
-              value={pointValue}
-              onChange={(e) => setPointValue(Number(e.target.value))}
-            />
-          </div>
+          <RupeeDecimalInput value={pointValue} onChange={setPointValue} />
         </Field>
       </div>
 

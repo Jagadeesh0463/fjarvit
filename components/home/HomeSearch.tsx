@@ -47,6 +47,7 @@ export function HomeSearch({ index }: { index: SearchableCard[] }) {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search by card, bank, cashback, lounge..."
+          aria-label="Search cards by name, bank, or category"
           className="w-full rounded-full border border-brand-100 bg-white py-3.5 pl-11 pr-4 text-sm text-gray-900 shadow-card outline-none transition-colors placeholder:text-gray-400 focus:border-brand-400 focus:ring-2 focus:ring-brand-100"
         />
       </div>
